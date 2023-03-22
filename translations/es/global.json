@@ -1,0 +1,17 @@
+{
+	"home": {
+    "url": "inicio",
+    "page-title": "Inicio",
+    "section-title": "Solicitar turno",
+    "content-text": "Debido a la emergencia sanitaria los turnos serán programados únicamente de forma telefónica o whatsapp para cumplir con las normas y medidas propuestas por el Ministerio de Salud"
+
+  },
+  "about": {
+    "url": "nosotros",
+    "page-title": "Nosotros",
+    "section-title": "Nuestro equipo",
+    "content-text": "Nuestro equipo de profesionales tiene una idea clara para conseguir nuestro objetivo: Abordar al paciente desde una concepción holística, promoviendo en la persona armonía y responsabilidad en la gestión de su propia vida, de los propios recursos, con sus limites y disfunciones, en cada una de las dimensiones de su persona: física, emocional, intelectual y espiritual"
+
+  }
+}
+

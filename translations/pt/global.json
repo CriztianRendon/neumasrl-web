@@ -1,0 +1,16 @@
+{
+	"home": {
+    "url": "início",
+    "page-title": "Início",
+    "section-title": "Reservar seu horário",
+    "content-text": "Devido à emergência sanitária, os turnos serão agendados apenas por telefone ou whatsapp para cumprir as regras e medidas propostas pelo Ministério da Saúde."
+
+  },
+  "about": {
+    "url": "sobre-nós",
+    "page-title": "Sobre nós",
+    "section-title": "A nossa equipa",
+    "content-text": "A nossa equipa de profissionais tem uma ideia clara para atingir o nosso objectivo: abordar o paciente desde uma concepção holística, promovendo a harmonia e a responsabilidade da pessoa na gestão da sua própria vida, dos seus próprios recursos, com os seus limites e disfunções, em cada uma das dimensões da sua pessoa: física, emocional, intelectual e espiritual"
+
+  }
+}
