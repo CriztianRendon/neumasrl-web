@@ -1,0 +1,87 @@
+@import 'variables';
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  background-color: $white;
+  transition: all 0.8s ease-in-out;
+  z-index: 99;
+
+  &__logo {
+    width: 175px;
+  }
+
+  &__items {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    background-color: $white;
+
+
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+
+    &--open {
+      height: 35vh;
+      opacity: 1;
+    }
+
+    .item {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 1rem 0;
+      color: $black;
+
+      @media(min-width:768px) {
+        margin: 0 0.75rem;
+      }
+    }
+
+    @media(min-width:768px) {
+      display: flex;
+      width: auto;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+      align-items: center;
+      height: auto;
+      opacity: inherit;
+    }
+
+  }
+
+  .burguer-menu {
+    width: 3rem;
+    height: 2.5rem;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    background-color: $gray;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &__icon {
+      color: $black;
+      font-size: 1.5rem;
+      font-weight: 800;
+
+    }
+
+    @media(min-width:768px) {
+      display: none;
+    }
+
+  }
+
+
+}
