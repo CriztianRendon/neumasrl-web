@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 
 // PAGES
 import Home from '../pages/Home';
-import AboutUs from '../pages/AboutUs';
-import Specialties from '../pages/Specialties';
+import Nosotros from '../pages/Nosotros';
+import Especialidades from '../pages/Especialidades';
 // COMPONENTS
 import MainLayout from '../components/MainLayout';
 import NotFound from '../pages/NotFound';
@@ -31,11 +31,11 @@ function App() {
 				/>
 				<Route
 					path={`/especialidades`}
-					element={<Specialties />}
+					element={<Especialidades />}
 				/>
 				<Route
 					path={`/nosotros`}
-					element={<AboutUs />}
+					element={<Nosotros />}
 				/>
 			</Route>
 		</Routes>

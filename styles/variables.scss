@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+
+//COLORS
 $primary-color: #009cad;
 $secondary-color : #00858a;
 $terciary-color: #7ABDD4;
@@ -5,3 +9,35 @@ $black: #282828;
 $gray: #f0f0f0;
 $white: #fff;
 
+//FONTS
+$font-ppal: 'Poppins', sans-serif;
+$font-gral: 'Kanit', sans-serif;
+$weight-ppal-light: 500;
+$weight-ppal-bold: 700;
+$weight-ppal-regular: 500;
+$weight-gral-light: 300;
+$weight-gral-bold: 500;
+$font-xl: 1.5em;
+$font-lg: 1.313em;
+$font-md: 1.125em;
+$font-sm: 1em;
+$font-xs: 0.875em;
+
+@mixin buttonColor($bg, $color , $color-border, $bg-hover,  $color-hover) {
+  background-color: $bg;
+  color: $color;
+  border: 2px solid $color-border;
+
+  &:hover {
+    background-color: $bg-hover;
+    color: $color-hover;
+  }
+}
+
+@mixin buttonSize($width, $paddin-x , $paddin-y,  $border-radius, $font-size, $font-weigth) {
+  font-size: $font-size;
+  font-weight: $font-weigth;
+  width: $width;
+  padding: $paddin-x $paddin-y;
+  border-radius: $border-radius;
+}

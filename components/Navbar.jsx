@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
+//LIBRARIES
+import { useTranslation } from 'react-i18next';
+//STYLES
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-
+//IMG
 import logo from '/img/Neuma_logo.png';
 
 function Navbar() {
+	const [t, i18n] = useTranslation('global');
 	const [isOpen, setIsOpen] = useState(false);
 
 	const handleToggle = () => {
@@ -18,54 +21,72 @@ function Navbar() {
 	};
 
 	return (
-		<div className='navbar'>
-			<div className='navbar__logo'>
-				<img
-					className='logo'
-					src={logo}
-					alt='Neuma_logo'
-					loading='lazy'
-				/>
-			</div>
-			<div
-				className='burguer-menu'
-				onClick={handleToggle}>
-				<span>
-					{!isOpen ? (
-						<FontAwesomeIcon
-							className='burguer-menu__icon'
-							icon={faBars}
-						/>
-					) : (
-						<FontAwesomeIcon
-							className='burguer-menu__icon'
-							icon={faXmark}
-						/>
-					)}
-				</span>
-			</div>
-			<div className={`navbar__items ${isOpen ? 'navbar__items--open' : ''}`}>
-				<li className='item'>
-					<Link
-						to='/especialidades'
-						onClick={handleMenuClose}>
-						Especialidades
-					</Link>
-				</li>
-				<li className='item'>
-					<Link
+		<div className='container container__nav'>
+			<div className='navbar'>
+				<div className='navbar__logo'>
+					<NavLink
 						to='/'
 						onClick={handleMenuClose}>
-						Coberturas
-					</Link>
-				</li>
-				<li className='item'>
-					<Link
-						to='/nosotros'
-						onClick={handleMenuClose}>
-						Nosotros
-					</Link>
-				</li>
+						<img
+							className='logo'
+							src={logo}
+							alt='Neuma_logo'
+							loading='lazy'
+						/>
+					</NavLink>
+				</div>
+				<div
+					className='burguer-menu'
+					onClick={handleToggle}>
+					<i>
+						{!isOpen ? (
+							<FontAwesomeIcon
+								className='burguer-menu__icon'
+								icon={faBars}
+							/>
+						) : (
+							<FontAwesomeIcon
+								className='burguer-menu__icon'
+								icon={faXmark}
+							/>
+						)}
+					</i>
+				</div>
+				<div className={`navbar__items ${isOpen ? 'navbar__items--open' : ''}`}>
+					<li className='item'>
+						<NavLink
+							to='/especialidades'
+							onClick={handleMenuClose}
+							className='navlink'>
+							{t('navbar.especialidades')}
+						</NavLink>
+					</li>
+					{i18n.language === 'es' && (
+						<li className='item'>
+							<NavLink
+								to='/'
+								onClick={handleMenuClose}
+								className='navlink'>
+								coberturas
+							</NavLink>
+						</li>
+					)}
+					<li className='item'>
+						<NavLink
+							to='/nosotros'
+							onClick={handleMenuClose}
+							className='navlink'>
+							{t('navbar.nosotros')}
+						</NavLink>
+					</li>
+					<a 
+						href='https://github.com/CriztianRendon'
+						target='_blank'
+						rel='noopener noreferrer'
+						className='btn btn--primary btn--lg'>
+						turnos
+					</a>
+				</div>
 			</div>
 		</div>
 	);

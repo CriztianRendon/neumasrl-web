@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-const AboutUs = () => {
+const Nosotros = () => {
 	const {t} = useTranslation('global');
 
 	return (
@@ -12,4 +12,4 @@ const AboutUs = () => {
 	);
 };
 
-export default AboutUs;
+export default Nosotros;

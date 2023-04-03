@@ -1,23 +1,73 @@
 @import 'Reset';
 @import 'variables';
 @import 'navbar';
+@import 'hero';
+@import 'equipo';
 
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  color: $black
-
+.section {
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
-p{
-  font-family: 'Kanit', sans-serif;
-  font-weight: 300;
-  color: $black;
+.container {
+  width: 100%;
+  padding: 1rem;
+
+  &__nav {
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+    @media(min-width:768px) {
+      padding: 1rem;
+      border: none;
+      border-radius: none;
+      box-shadow: none;
+    }
+
+  }
+
+  @media(min-width:768px) {
+    max-width: 1110px;
+    margin: auto;
+  }
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 80vh;
+.wrapper {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-family: $font-ppal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+
+  &--primary {
+    @include buttonColor($primary-color, $white, $terciary-color, $secondary-color, $white)
+  }
+
+  &--secondary {
+    @include buttonColor($white, $primary-color, $primary-color, $secondary-color, $white)
+  }
+
+  &--lg {
+    @include buttonSize(100%, 0.75rem, 1rem, 12px, $font-xs, $weight-ppal-bold)
+  }
+
+  &--md {
+    @include buttonSize(50%, 0.5rem, 1rem, 10px, $font-xs, $weight-ppal-bold)
+  }
+
+  &--sm {
+    @include buttonSize(auto, 0.5rem, 1rem, 10px, $font-xs, $weight-ppal-bold)
+  }
+
+
+  @media(min-width:768px) {
+    margin: 0 1rem;
+  }
+
 }

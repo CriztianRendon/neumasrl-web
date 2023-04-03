@@ -1,30 +1,94 @@
 {
-  "navbar": {
-    "especialidades": "especializações",
-    "coberturas": "",
-    "nosotros": "nossa equipe",
-    "turnos": "turnos"
-  },
+	"navbar": {
+		"especialidades": "especializações",
+		"coberturas": "",
+		"nosotros": "nós",
+		"turnos": "turnos"
+	},
 
 	"home": {
-    "url": "início",
-    "page-title": "Início",
-    "section-title": "Reservar seu horário",
-    "content-text": "Devido à emergência sanitária, os turnos serão agendados apenas por telefone ou whatsapp para cumprir as regras e medidas propostas pelo Ministério da Saúde."
-  },
+		"page-title": "início",
 
-  "especialidades": {
-    "url": "especialidades",
-    "page-title": "Especialidades",
-    "section-title": "Nuestro equipo",
-    "content-text": "Nuestro equipo de profesionales tiene una idea clara para conseguir nuestro objetivo: Abordar al paciente desde una concepción holística, promoviendo en la persona armonía y responsabilidad en la gestión de su propia vida, de los propios recursos, con sus limites y disfunciones, en cada una de las dimensiones de su persona: física, emocional, intelectual y espiritual"
-  },
-  
-  "about": {
-    "url": "sobre-nós",
-    "page-title": "Sobre nós",
-    "section-title": "A nossa equipa",
-    "content-text": "A nossa equipa de profissionais tem uma ideia clara para atingir o nosso objectivo: abordar o paciente desde uma concepção holística, promovendo a harmonia e a responsabilidade da pessoa na gestão da sua própria vida, dos seus próprios recursos, com os seus limites e disfunções, em cada uma das dimensões da sua pessoa: física, emocional, intelectual e espiritual"
+		"hero": {
+			"hero-title": "Somos <span>especialistas</span></br>em medicina respiratória",
+			"hero-text": "Contamos com uma equipe médica altamente qualificada",
+			"hero-button": "Solicitar turno"
+		},
+		"especialidades": {
+			"title": "Especializações",
+			"text": "Nossos especialistas trabalham juntos e estão focados em fornecer atendimento integral aos nossos pacientes, desde o diagnóstico até o tratamento e recuperação"
+		},
 
-  }
+		"equipo": {
+			"title": "Nossa equipe",
+			"text": "Orgulhamo-nos de oferecer um atendimento médico personalizado e de alta qualidade para atender às necessidades individuais de cada paciente, trabalhamos de forma coordenada e colaborativa para garantir o melhor atendimento médico especializado em doenças respiratórias",
+			"button": "Ver mais"
+		},
+
+		"noticias": {
+			"title": "Mantenha-se informado",
+			"text": "Leia nossas notícias médicas e mantenha-se atualizado com os últimos avanços e conselhos sobre saúde"
+		},
+
+		"contact-form": {
+			"title": "Mais informação?",
+			"name": "Nome e sobrenome",
+			"email": "Email",
+			"consulta": "Escreva sua consulta",
+			"submit": "Enviar consulta"
+		}
+	},
+
+	"especialidades": [
+		{
+			"title": "Medicina Clínica",
+			"extract": "IPS médico de família, atendimento a crianças, adultos e idosos",
+			"text": ""
+		},
+		{
+			"title": "Internamento",
+			"extract": "Estágio Especializado em Medicina Respiratória e Reabilitação Neurológica",
+			"text": "<p>A Neuma Respiratória é uma clínica de internamento especializada em medicina respiratória e reabilitação neurológica.</p><p>A reabilitação neurológica é um processo supervisionado por uma equipe interdisciplinar através do qual pessoas que sofreram alguma alteração do sistema nervoso podem obter uma melhora em sua funcionalidade, sua independência para realizar atividades de vida diária e encontrar alívio em seus próprios sintomas.</p><p>Colocamos à disposição do paciente uma equipa humana altamente qualificada para avaliar e atender às necessidades daqueles que sofreram uma patologia ou processo neurológico e que necessitam de cuidados e atenção que não podem ser prestados a nível ambulatório.</p><p>Contamos com atendimento médico, cuidados de enfermagem e profissionais das diversas áreas que engloba o processo de reabilitação: fisioterapeutas, neurologistas, cinesiologistas e psicólogos, que facilitarão a evolução dos pacientes internados por meio de um atendimento integral.</p>"
+		},
+		{
+			"title": "Pneumologia",
+			"extract": "Estudos, diagnóstico, tratamento e reabilitação de doenças respiratórias",
+			"text": "<p>Pneumologia é a parte da medicina que trata da fisiologia e patologia do sistema respiratório.</br>Sua finalidade básica é o estudo da etologia, epidemiologia, patogênese, fisiopatologia, semiologia, diagnóstico, tratamento, prevenção e reabilitação das doenças respiratórias.</p><p><b>Que doenças estuda a Pneumologia?</b></br>Para ter uma visão melhor das doenças que a pneumologia estuda, é bom dividir o sistema respiratório em diferentes partes e órgãos, para poder analisá-los e assim entender os processos patológicos mais frequentes.</p><p><b>Trato respiratório superior</b></br>Eles incluem as vias aéreas que estão fora do tórax, ou seja, nariz e seios paranasais, faringe, laringe e traqueia. A este nível, as doenças mais comuns costumam ter um carácter alérgico, irritativo ou infeccioso, exigindo por vezes um estudo multidisciplinar por pneumologia, alergologia e otorrinolaringologia, algumas das quais são:</p><ul><li>Rinite (inflamação da mucosa nasal)</li><li>Sinusite (ocupação mucosa e inflamatória dos seios paranasais)</li><li>Faringite</li><li>Laringite</li></ul><p><b>Trato respiratório inferior</b></br>Inclui a traquéia, brônquios e bronquíolos. A este nível, as doenças mais frequentes são as que afectam os brônquios, que podem estar dilatados (bronquiectasias) ou obstruídos (asma e doença pulmonar obstrutiva crónica). Doenças que causam obstrução brônquica causam sensação de falta de ar e chiado no peito.</p><p><b>Pulmões:</b> São os órgãos dentro dos quais ocorre a transferência de oxigênio que vai do ar da atmosfera para o sangue. As doenças são geralmente de natureza infecciosa, embora existam inflamações pulmonares não infecciosas, que são menos frequentes e aparecem em doenças reumáticas ou ambientais.</p><p><b>Pleuras:</b> São dois tecidos finos que envolvem os pulmões, entre os quais existe uma cavidade virtual (denominada espaço pleural). O espaço pleural naturalmente vazio pode ser preenchido com líquido (derrame pleural), ar (pneumotórax) ou pus (empiema).</p><p><b>Que sintomas devemos consultar?</b></br>Se você tiver algum dos seguintes sintomas, você precisa entrar em contato com um pneumologista:</p>​<ul><li>Sensação de falta de ar (sufoco ou dispneia)</li><li>Assobio no peito (chiado no peito)</li><li>Tosse persistente</li><li>A expectoração purulenta e, sobretudo, aquela que vem acompanhada de manchas de sangue<li><li>Dor no peito ou nas costas</li><li>O ronco e a interrupção da respiração durante o sono devem ser avaliados especialmente em pessoas com doenças cardíacas, pressão alta e sonolência ou fadiga excessiva durante o dia</li></ul>"
+		},
+		{
+			"title": "Fisiatria",
+			"extract": "Prevenção, diagnóstico, avaliação e tratamento do estado da doença",
+			"text": "<p>A Fisiatria é uma especialidade da medicina que promove a saúde e previne, diagnostica, avalia, prescreve e trata o estado de doença.</p><p>Estabelece uma prioridade na consecução dos objetivos de funcionalidade ergonômica, ocupacional e de reinserção social. Utiliza meios terapêuticos farmacológicos, físicos, naturais ou modificados não ionizantes, ocupacionais, de linguagem, comunicação e cognição, auxiliares educacionais e técnicos que incluem ortopróteses de uso externo.</p><p>Inclui o estudo, detecção, diagnóstico, prevenção e tratamento clínico ou cirúrgico de pacientes com processos incapacitantes.</p>"
+		},
+		{
+			"title": "Neurologia",
+			"extract": "Controle clínico e monitoramento de pacientes com distúrbios neurológicos e neurodegenerativos",
+			"text": "<p>Controle clínico e monitoramento de pacientes com distúrbios neurológicos e neurodegenerativos</p><p>Consultório clínico neurológico/neurointensivo</p><ul><li>Eco doppler craniano</li><li>Tumor cerebral</li><li>Trauma na cabeça</li><li>Dores de cabeça do tipo cirúrgico</li><li>Tumor medular</li><li>Hidrocefalia</li><li>Aneurisma cerebral</li><li>Arnold Chiari malformado</li></ul>"
+		},
+		{
+			"title": "Cinesiologia",
+			"extract": "Atenção da função respiratória, para reabilitação de processos agudos e tratamento de sintomas",
+			"text": "<p>O paciente é abordado a partir da função respiratória, seja na reabilitação de processos agudos ou exacerbação de sintomas. Desde a área neurológica, passando pela aplicação de técnicas de recuperação geral.</p><p>São também realizados tratamentos de reabilitação física e tratamentos de cinesiologia e fisioterapia convencionais e não convencionais, tais como:</p><ul><li>Reabilitação cardiorrespiratória</li><li>Microeletrólise percutânea (MEP)</li><li>Aplicação de ventosa</li><li>Agulhamento seco</li><li>Acupuntura</li><li>Taping neuromuscular</li></ul>"
+		},
+		{
+			"title": "Reumatologia",
+			"extract": "Tratamento de distúrbios médicos (não cirúrgicos) do sistema músculo-esquelético e tecido conjuntivo",
+			"text": "<p>Trata as afecções médicas (não cirúrgicas) do sistema músculo-esquelético e do tecido conjuntivo, que engloba um grande número de entidades clínicas conhecidas colectivamente por doenças reumáticas, às quais se junta um grande grupo de doenças com envolvimento sistémico: as doenças do tecido conjuntivo.</p><p>Os reumatologistas tratam sobretudo doentes com entidades clínicas com envolvimento localizado que geralmente lesam as articulações, ossos, músculos, tendões e fáscias, e ainda doenças com expressão sistémica, como osteoartrite, artrite reumatóide, lúpus, gota e outras.</p>"
+		},
+		{
+			"title": "Psicologia e Psicopedagogia",
+			"extract": "Cuidados de internamento e consultório. Família abrangente e abordagem individual, diagnóstico e tratamento",
+			"text": "<p>A terapia psicológica privada oferece em um espaço de privacidade, apoio, contenção e diferentes ferramentas para que uma pessoa possa enfrentar aquele tipo particular de sofrimento mental e emocional que a aflige.</p><p>Já a Neuma Respiratória, possui psicologia na área de internação oferecendo ao paciente assistência para as necessidades psicoemocionais que surgem desde o diagnóstico, tratamento e processo de alta.</br>São realizados diagnósticos psicológicos e estimulação cognitiva de forma a aumentar a independência e o bem-estar do paciente.</p><p>A pessoa pode solicitar ao psicólogo: uma consulta ou tratamento psicoterapêutico, psicodiagnóstico individual, avaliação neuropsicológica, certificados de aptidão para o trabalho e habilitação para condução automóvel.</p><p>Da Psicopedagogia:</p><ul><li>Abordagem familiar integral</li><li>Neuropsicologia Aplicada</li><li>Reabilitação cognitiva</li><li>Avaliação neuropsicológica em adultos e idosos</li><li>Perfis neuropsicológicos</li><li>Reabilitação neurocognitiva</li><li>TEC (trauma cerebral)</li><li>AVC (acidente vascular cerebral)</li><li>DA (doença de Alzheimer)</li><li>ELA (esclerose lateral amiotrófica)</li><li>Esclerose múltipla e outras doenças raras que afetam as funções básicas</li></ul>"
+		}
+	],
+
+  "nosotros" : {
+		"title": "Nós",
+		"text": {
+			"parrafo1": "A Pneuma Respiratoria é o único centro especializado em reabilitação pulmonar do interior do país que oferece serviços de saúde de excelência",
+			"parrafo2": "Somos uma equipe de profissionais com uma ideia clara por trás da consecução de um objetivo: abordar o paciente a partir de uma concepção holística, segundo a qual gerar saúde é promover harmonia e responsabilidade na pessoa na gestão de sua vida, de seus próprios recursos , com seus limites e disfunções, em cada uma das dimensões de sua pessoa: física, emocional, intelectual e espiritual",
+			"parrafo3": "A nossa concepção compreende o doente como um ser integrado em si e numa família, pelo que o tratamento supõe a incorporação e abordagem do ambiente familiar, acrescentando-o ao processo terapêutico. O mesmo acontece com o serviço social, para quem o paciente não deve ser um número de afiliado, mas deve estar ciente de todo o trabalho que é feito sobre essa pessoa",
+			"parrafo 4": "O que torna o Neuma Respiratório um centro diferente e com características particulares são duas qualidades essenciais. Em primeiro lugar, a partir da concepção holística da saúde geramos nosso próprio padrão de comunicação com o paciente. Toda a equipe profissional está envolvida com ele e seu tratamento, conseguindo uma atitude diferenciada tanto do paciente quanto da família frente à doença, o que gera uma predisposição positiva imprescindível para sua recuperação. A segunda característica está ligada ao treinamento constante de nossos recursos humanos, registrando e sistematizando resultados, ajustando tratamentos e ações com base no conhecimento empírico em benefício da ciência e dos pacientes"
+		}
+	}
 }
