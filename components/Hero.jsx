@@ -1,14 +1,14 @@
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 
-import HeroImg from '../public/img/hero_home-960.png';
+import HeroImg from '/img/hero_home-960.png';
 
 const Hero = () => {
 	const { t } = useTranslation('global');
 	return (
 		<div className='section'>
 			<div className='container'>
-				<div className='wrapper wrapper-img'>
+				<div className='wrapper wrapper__img wrapper__img--hero'>
 					<img
 						src={HeroImg}
 						alt='Hero imagen'

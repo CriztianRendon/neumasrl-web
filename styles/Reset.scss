@@ -92,36 +92,6 @@ h6 {
   margin-bottom: 1rem;
 }
 
-h1, h2 {
-  /* Background de los span en titulos h1 y h2*/
-  span{
-    background-image: url('/img/text_span_line.svg');
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
-}
-
-h1 {
-  font-size: $font-xl;
-  /*Posicion de Background de los span en titulos h1*/
-  span{
-    background-position: bottom;
-  }
-}
-
-h2 {
-  font-size: $font-lg;
-  /*Posicion de Background de los span en titulos h2*/
-  span{
-    background-position: 100% 85%;
-  }
-}
-
-
-
-
 /* Evitamos problemas con los pseudoelementos de quotes */
 blockquote:before,
 blockquote:after,

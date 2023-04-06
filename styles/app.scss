@@ -4,6 +4,67 @@
 @import 'hero';
 @import 'equipo';
 
+h1,
+h2 {
+
+  /* Background de los span en titulos h1 y h2*/
+  span {
+    background-image: url('/img/text_span_line.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+}
+
+h1 {
+  font-size: $font-xl;
+
+  /*Posicion de Background de los span en titulos h1*/
+  span {
+    background-position: bottom;
+  }
+}
+
+h2 {
+  font-size: $font-lg;
+
+  /*Posicion de Background de los span en titulos h2*/
+  span {
+    background-position: 100% 90%;
+  }
+}
+
+h3 {
+  font-size: $font-md;
+
+  /*Posicion de Background de los span en titulos h2*/
+  span {
+    background-position: 100% 85%;
+  }
+}
+
+.img {
+  &--section {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+
+  }
+
+  &--decoration {
+    bottom: -1.75rem;
+    right: -0.5rem;
+    position: absolute;
+    width: 5rem;
+
+  }
+
+  &--card-especialidad {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+}
+
 .section {
   width: 100%;
   margin-bottom: 1rem;
@@ -14,8 +75,8 @@
   padding: 1rem;
 
   &__nav {
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 0 0 12px 12px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 
@@ -36,6 +97,102 @@
 
 .wrapper {
   margin-bottom: 1rem;
+
+  &__cards {
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+  }
+
+  &__bodyCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &__img {
+    position: relative;
+
+    &--section {
+      padding-top: 1rem;
+      padding-right: 2rem;
+      padding-left: 1rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__swicth-lang {
+    display: flex;
+    gap: 1rem;
+    position: fixed;
+    bottom: 0.25rem;
+    background-color: $gray;
+    padding: 0.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+  }
+
+  &__text {
+    display:flex;
+    flex-flow: column wrap;
+    margin-bottom: 1rem;
+  }
+}
+
+.card {
+  width: 100%;
+  // padding: 1rem;
+  border: 1px solid $gray;
+  border-radius: 12px;
+  background-color: $white;
+ box-shadow: 5px 5px 10px $gray,
+
+}
+
+.link-text {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: $font-ppal;
+  font-weight: $weight-ppal-bold;
+
+  &--card{
+
+    align-self: flex-end;
+  }
+
+  &--md {
+
+    font-size: $font-md;
+
+  }
+
+  &--sm {
+
+    font-size: $font-sm;
+  }
+
+  &--primary {
+    color: $primary-color;
+  }
+
+  &--black {
+    color: $black;
+  }
+
+  svg {
+    width: auto;
+    font-size: $font-sm;
+    margin-left: 0.5rem;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: $gray;
+  }
 }
 
 .btn {
@@ -58,16 +215,33 @@
   }
 
   &--md {
-    @include buttonSize(50%, 0.5rem, 1rem, 10px, $font-xs, $weight-ppal-bold)
+    @include buttonSize(66%, 0.5rem, 1rem, 10px, $font-xs, $weight-ppal-bold)
   }
 
   &--sm {
     @include buttonSize(auto, 0.5rem, 1rem, 10px, $font-xs, $weight-ppal-bold)
   }
 
-
-  @media(min-width:768px) {
-    margin: 0 1rem;
+  &--xs {
+    @include buttonSize(auto, 0.25rem, 0.5rem, 10px, $font-xs, $weight-ppal-bold)
   }
+}
 
+
+
+.text-field {
+  width: 100%;
+  height: max-content;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  font-weight: $weight-gral-light;
+  border: 1px solid $gray;
+  border-radius: 12px;
+  background-color: transparent;
+
+  &:focus-visible {
+    border: 1px solid $primary-color;
+    outline-offset: 0px;
+    outline: 2px solid $terciary-color;
+  }
 }

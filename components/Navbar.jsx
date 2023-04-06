@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
-//STYLES
+//AWESOME ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 //IMG
@@ -53,33 +53,33 @@ function Navbar() {
 					</i>
 				</div>
 				<div className={`navbar__items ${isOpen ? 'navbar__items--open' : ''}`}>
-					<li className='item'>
-						<NavLink
-							to='/especialidades'
-							onClick={handleMenuClose}
-							className='navlink'>
-							{t('navbar.especialidades')}
-						</NavLink>
-					</li>
-					{i18n.language === 'es' && (
 						<li className='item'>
 							<NavLink
-								to='/'
+								to='/especialidades'
 								onClick={handleMenuClose}
 								className='navlink'>
-								coberturas
+								{t('navbar.especialidades')}
 							</NavLink>
 						</li>
-					)}
-					<li className='item'>
-						<NavLink
-							to='/nosotros'
-							onClick={handleMenuClose}
-							className='navlink'>
-							{t('navbar.nosotros')}
-						</NavLink>
-					</li>
-					<a 
+						{i18n.language === 'es' && (
+							<li className='item'>
+								<NavLink
+									to='/'
+									onClick={handleMenuClose}
+									className='navlink'>
+									coberturas
+								</NavLink>
+							</li>
+						)}
+						<li className='item'>
+							<NavLink
+								to='/nosotros'
+								onClick={handleMenuClose}
+								className='navlink'>
+								{t('navbar.nosotros')}
+							</NavLink>
+						</li>
+					<a
 						href='https://github.com/CriztianRendon'
 						target='_blank'
 						rel='noopener noreferrer'

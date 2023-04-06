@@ -3,7 +3,7 @@
 		"especialidades": "especialidades",
 		"coberturas": "coberturas",
 		"nosotros": "nosotros",
-		"turnos": "turnos"
+		"turnos": "Turnos"
 	},
 
 	"home": {
@@ -17,8 +17,9 @@
 		},
 
 		"especialidades": {
-			"title": "Especialidades",
-			"text": "Nuestros especialistas trabajan juntos y enfocados en brindar una atención integral a nuestros pacientes, desde el diagnóstico hasta el tratamiento y su recuperación"
+			"title": "<span>Especialidades</span>",
+			"text": "Nuestros especialistas trabajan juntos y enfocados en brindar una atención integral a nuestros pacientes, desde el diagnóstico hasta el tratamiento y su recuperación",
+			"button": "Consultar agendas"
 		},
 
 		"equipo": {
@@ -28,7 +29,7 @@
 		},
 
 		"noticias": {
-			"title": "Mantente informado",
+			"title": "Mantente <span>informado</span>",
 			"text": "Lee nuestras noticias médicas y mantente al día con los avances y consejos más recientes en salud"
 		},
 
@@ -43,44 +44,52 @@
 
 	"especialidades": [
 		{
-			"title": "Medicina clinica",
-			"extract": "Medicos de cabecera del IPS, atención a niños, adultos y adultos mayores",
-			"text": ""
-		},
-		{
-			"title": "Internación",
-			"extract": "Internación especializada en medicina respiratoria y rehabilitación neurológica",
-			"text": "<p>Neuma Respiratoria es una clínica con internación especializada en medicina respiratoria y rehabilitación neurológica.</p><p>La rehabilitación neurológica es un proceso supervisado por un equipo interdisciplinar a través del cual personas que han sufrido alguna alteración del sistema nervioso, pueden llegar a lograr una mejora de su funcionalidad, de su independencia para la realización de las actividades para la vida diaria y encontrar un alivio en la sintomatología propia.</p><p>Ponemos a disposición del paciente un equipo humano altamente cualificado para evaluar y atender las necesidades de quienes han sufrido alguna patología o proceso neurológico y que necesitan cuidados y una atención que no puede prestarse de forma ambulatoria.</p><p>Disponemos de Atención médica, cuidados de enfermería y profesionales de las diferentes áreas que engloba el proceso rehabilitador: fisioterapeutas, neurólogos, kinesiólogos y psicólogos, que van a facilitar a través de la atención integral la evolución de los pacientes hospitalizados."
-		},
-		{
 			"title": "Neumonologia",
+			"pathImg": "/neumonologia",
 			"extract": "Estudios, diagnóstico, tratamiento y rehabilitación de las enfermedades respiratorias",
 			"text": "<p>La Neumonología es la parte de la medicina que se ocupa de la fisiología y la patología del aparato respiratorio. Su finalidad básica es el estudio de la etología, epidemiología, patogenia, fisiopatología, semiología, diagnóstico, tratamiento, prevención y rehabilitación de las enfermedades respiratorias.</p><p><b>¿Qué enfermedades estudia la Neumonología?</b>Para poder tener una mejor visión de las enfermedades que estudia la neumonología es bueno dividir al aparato respiratorio en distintas partes y órganos, para poder analizarlos y seguidamente comprender Ios procesos patológicos más frecuentes.</p><p><b>​Vías respiratorias altas</b>Comprenden a las vías respiratorias que se encuentran fuera del tórax, es decir, nariz y senos paranasales, faringe, Iaringe y tráquea. En este nivel las enfermedades más comunes habitualmente tienen una naturaleza alérgica, irritativa o infecciosa, requiriendo en ocasiones un estudio multidisciplinar por neumología, alergología y otorrinolaringología, algunas de ellas son:</p><ul><li>​Rinitis (inflamación de la mucosa nasal)</li><li>Sinusitis (ocupación mucosa e inflamatoria de los senos paranasales)</li><li>Faringitis</li><li>Laringitis</li></ul><p><b>​Vías respiratorias bajas</b>Incluye la tráquea, bronquios y bronquiolos. A este nivel las enfermedades con mayor frecuencia son las que afectan a los bronquios, que pueden verse dilatados (bronquiectasias) u obstruidos (asma y enfermedad pulmonar obstructiva crónica). Las enfermedades que causan obstrucción bronquial provocan sensación de falta de aire y silbidos.</p><p><b>Pulmones:</b> Son los órganos en cuyo interior se produce el trasvase del oxígeno que va desde el aire de la atmosfera hacia la sangre. Habitualmente las enfermedades son de naturaleza infecciosa, aunque existen inflamaciones pulmonares no infecciosas, las cuales son menos frecuentes y aparecen en enfermedades reumáticas o ambientales.</p><p><b>Pleuras:</b> Son dos finas telas que envuelven los pulmones entre las cuales existe una cavidad virtual (llamado espacio pleural). El espacio pleural que naturalmente se encuentra vacío se puede ver ocupado por líquido (derrame pleural), aire (neumotérax) o pus (empiema).</p><p><b>​¿Qué síntomas debemos consultar?</b>Si usted presenta alguno de los siguientes síntomas es necesario que contacte a un neumonólogo:</p><ul><li>​Sensación de falta de aire (ahogo o disnea)</li><li>Silbidos en el pecho (sibilancias).</li><li>Tos persistente.</li><li>Expectoración purulenta y, sobre todo, la que se acompaña de manchas de sangre.</li><li>Dolor en el pecho o la espalda.</li><li>Ronquido e interrupción de la respiración durante el sueño deben ser valoradas especialmente en aquellas personas con enfermedades cardíacas, presión alta y somnolencia o cansancio excesivo durante el día</li></ul>"
 		},
 		{
-			"title": "Fisiatría",
-			"extract": "Prevención, diagnóstico, evaluación,  y tratamiento del estado de enfermedad",
-			"text": "<p>La fisiatría es una de la medicina que promociona la salud y previene, diagnostica, evalúa, prescribe y trata el estado de enfermedad.</p> <p>Establece una prioridad en el logro de objetivos de funcionalidad ergonómicos, ocupacionales y de reintegración social. Utiliza los medios farmacológicos, físicos terapéuticos naturales o modificados no ionizantes, los ocupacionales, los del lenguaje, de la comunicación y cognición, educacionales y las ayudas técnicas en donde se incluyen las ortoprótesis de uso externo.</p> <p> Comprende el estudio, detección, diagnóstico, prevención y tratamiento clínico o quirúrgico de los enfermos con procesos discapacitantes.</p>"
-		},
-		{
 			"title": "Neurología",
+			"pathImg": "/neurologia",
 			"extract": "Control clínico y seguimiento de pacientes con alteraciones neurológicas y neurodegenerativas",
 			"text": "<p>Control clínico y seguimiento de pacientes con alteraciones neurológicas y neurodegenerativas</p></p>Consultorio clínico neurológico / neurointensivo</p><ul><li>Eco doppler craneal</li><li>Tumor cerebral</li><li>Traumatismo de cráneo</li><li>Cefaléas de tipo quirúrgicas</li><li>Tumor medular</li><li>Hidrocefalia</li><li>Aneurisma cerebral</li><li>Mal formación Arnold Chiari</li></ul>"
 		},
 		{
+			"title": "Fisiatría",
+			"pathImg": "/fisiatria",
+			"extract": "Prevención, diagnóstico, evaluación,  y tratamiento del estado de enfermedad",
+			"text": "<p>La fisiatría es una de la medicina que promociona la salud y previene, diagnostica, evalúa, prescribe y trata el estado de enfermedad.</p> <p>Establece una prioridad en el logro de objetivos de funcionalidad ergonómicos, ocupacionales y de reintegración social. Utiliza los medios farmacológicos, físicos terapéuticos naturales o modificados no ionizantes, los ocupacionales, los del lenguaje, de la comunicación y cognición, educacionales y las ayudas técnicas en donde se incluyen las ortoprótesis de uso externo.</p> <p> Comprende el estudio, detección, diagnóstico, prevención y tratamiento clínico o quirúrgico de los enfermos con procesos discapacitantes.</p>"
+		},
+		{
+			"title": "Medicina clinica",
+			"pathImg": "/medicina-clinica",
+			"extract": "Medicos de cabecera del IPS, atención a niños, adultos y adultos mayores",
+			"text": ""
+		},
+		{
 			"title": "Kinesiología",
+			"pathImg": "/kinesiologia",
 			"extract": "Atención desde la función respiratoria, para rehabilitación de procesos agudos y tratamiento de síntomas",
 			"text": "<p>Se aborda al paciente desde la función respiratoria, ya sea en la rehabilitación de procesos agudos o exacerbación de síntomas. Desde el área neurológica, mediante la aplicación de técnicas destinadas la recuperación general.</p><p>También se realizan tratamientos de rehabilitación física y tratamientos de kinesiología y fisioterapia convencional y no convencional, como ser:</p><ul><li>Rehabilitación cardiorespiratoria</li><li>Micro electrólisis percutánea ( MEP )</li><li>Aplicación de ventosas</li><li>Punción seca</li><li>Acupuntura</li><li>Taping neuromuscular</li></ul>"
 		},
 		{
 			"title": "Reumatología",
+			"pathImg": "/reumatologia",
 			"extract": "Atención de trastornos médicos (no los quirúrgicos) del aparato locomotor y del tejido conectivo",
 			"text": "<p>Atiende trastornos médicos (no quirúrgicos) del aparato locomotor y del tejido conectivo, que abarca un gran número de entidades clínicas conocidas en conjunto como enfermedades reumáticas, a las que se suman un gran grupo de enfermedades de afectación sistémica: las conectivopatías.</p><p>Los reumatólogos tratan principalmente a los pacientes con entidades clínicas de afectación localizada que dañan generalmente las articulaciones, huesos, músculos, tendones y fascias, e incluso enfermedades con expresión sistémica, como artrosis, artritis reumatoidea, lupus, gota y otras.</p>"
-		},
+		},		
 		{
 			"title": "Psicología y Psicopedagogía",
+			"pathImg": "/psicologia-psicopedagogia",
 			"extract": "Atención en internación y consultorio. Abordaje familiar e individual integral, diagnóstico y tratamiento",
 			"text": "<p>La terapia psicológica particular ofrece en un espacio de privacidad, apoyo, contención y distintas herramientas para que una persona pueda afrontar ese modo particular de sufrimiento psíquico y emocional que lo aqueja.</p><p>A su vez, Neuma Respiratoria, cuenta con psicología en el área de internación ofreciendo al paciente asistencia a las necesidades psico-emocionales que surgen desde el diagnóstico, tratamiento y proceso de externación.</br>Se realizan diagnósticos psicológicos y estimulación cognitiva con el fin de aumentar la independencia y bienestar del paciente.</p><p>Una persona puede solicitar al psicólogo: una consulta o tratamiento psicoterapéutico, psicodiagnósticos individuales, evaluación neuropsicológica, certificados de aptos laborales y certificación para conducción de automotores.</p><p>Desde la Psicopedagogía:</p><ul><li>Abordaje familiar integral</li><li>NeuropsicologÍa aplicada</li><li>Rehabilitación cognitiva</li><li>Evaluación neuropsicologica en adultos y adultos mayores</li><li>Perfiles neuropsicológicos</li><li>Rehabilitación neurocognitiva</li><li>TEC (traumatismo encefalocraneano)</li><li>ACV (accidente cerebrovascular)</li><li>E.A (enfermedad de Alzhéimer)</li><li>ELA (esclerosis lateral amiotrófica)</li><li>Esclerosis múltiple y otras enfermedades poco frecuentes que afecten las funciones básicas</li></ul>"
+		},
+		{
+			"title": "Internación",
+			"pathImg": "/internacion",
+			"extract": "Internación especializada en medicina respiratoria y rehabilitación neurológica",
+			"text": "<p>Neuma Respiratoria es una clínica con internación especializada en medicina respiratoria y rehabilitación neurológica.</p><p>La rehabilitación neurológica es un proceso supervisado por un equipo interdisciplinar a través del cual personas que han sufrido alguna alteración del sistema nervioso, pueden llegar a lograr una mejora de su funcionalidad, de su independencia para la realización de las actividades para la vida diaria y encontrar un alivio en la sintomatología propia.</p><p>Ponemos a disposición del paciente un equipo humano altamente cualificado para evaluar y atender las necesidades de quienes han sufrido alguna patología o proceso neurológico y que necesitan cuidados y una atención que no puede prestarse de forma ambulatoria.</p><p>Disponemos de Atención médica, cuidados de enfermería y profesionales de las diferentes áreas que engloba el proceso rehabilitador: fisioterapeutas, neurólogos, kinesiólogos y psicólogos, que van a facilitar a través de la atención integral la evolución de los pacientes hospitalizados."
 		}
 	],
 

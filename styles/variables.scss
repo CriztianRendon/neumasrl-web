@@ -5,7 +5,7 @@
 $primary-color: #009cad;
 $secondary-color : #00858a;
 $terciary-color: #7ABDD4;
-$black: #282828;
+$black: #353535;
 $gray: #f0f0f0;
 $white: #fff;
 
@@ -17,11 +17,11 @@ $weight-ppal-bold: 700;
 $weight-ppal-regular: 500;
 $weight-gral-light: 300;
 $weight-gral-bold: 500;
-$font-xl: 1.5em;
-$font-lg: 1.313em;
-$font-md: 1.125em;
-$font-sm: 1em;
-$font-xs: 0.875em;
+$font-xl: 36px;
+$font-lg: 32px;
+$font-md: 21px;
+$font-sm: 16px;
+$font-xs: 14px;
 
 @mixin buttonColor($bg, $color , $color-border, $bg-hover,  $color-hover) {
   background-color: $bg;

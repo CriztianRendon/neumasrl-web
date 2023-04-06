@@ -11,8 +11,8 @@ const Home = () => {
 	return (
 		<>
 			<Hero />
-			{/* <CardsEspecialidades /> */}
 			<Equipo />
+			<CardsEspecialidades />
 			<Noticias />
 			<ContactForm/>
 		</>

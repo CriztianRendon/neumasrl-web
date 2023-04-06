@@ -20,10 +20,10 @@
 
   &__items {
     display: flex;
+    width: 100%;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: start;
-    width: 100%;
     background-color: $white;
 
 
@@ -32,13 +32,15 @@
     overflow: hidden;
     transition: all 0.5s ease;
 
+
+
     &--open {
       height: 15rem;
       opacity: 1;
     }
 
+
     .item {
-      width: 100%;
       padding: 1rem 0;
       color: $black;
       font-size: $font-md;
@@ -47,7 +49,9 @@
       cursor: pointer;
 
       .navlink {
+        font-size: $font-md;
         width: max-content;
+
         &.active {
           color: $primary-color;
         }
@@ -86,7 +90,7 @@
 
     &__icon {
       color: $black;
-      font-size: $font-lg;
+      font-size: $font-md;
       font-weight: $weight-ppal-bold;
 
     }
