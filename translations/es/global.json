@@ -28,13 +28,18 @@
 			"button": "Conoce más"
 		},
 
+		"coberturas": {
+			"title": "<span>Coberturas</span>",
+			"text": "Una amplia gama de prestadoras de salud avalan y confían en la calidad de nuestra institución"
+		},
+
 		"noticias": {
 			"title": "Mantente <span>informado</span>",
 			"text": "Lee nuestras noticias médicas y mantente al día con los avances y consejos más recientes en salud"
 		},
 
 		"contact-form": {
-			"title": "¿Mas información?",
+			"title": "¿Mas <span>información?</span>",
 			"name": "Nombre y Apelllido",
 			"email": "Email",
 			"consulta": "Escribe tu consulta",
@@ -94,12 +99,84 @@
 	],
 
 	"nosotros" : {
-		"title": "Nosotros",
+		"title": "<span>Nosotros</span>",
 		"text": {
 			"parrafo1": "Neuma Respiratoria es el unico centro especializado en rehabilitacion pulmonar en el interior del pais que presta servicios de excelencia en salud",
-			"parrafo2": "Somos un equipo de profesionales con una idea clara tras la consecusion de un objetivo: abordar al paciente desde una concepcion holistica, segun la cual generar salud es promover en la persona armonia y responsabilidad en la gestion de la propia vida, de los propios recursos, con sus limites y disfunciones, en cada una de las dimensiones de su persona: fisica, emocional, intelectual y espiritual",
-			"parrafo3": "Nuestra concepcion entiende al paciente como un ser integrado en si mismo y en una familia, por lo tanto el tratamiento supone la incorporacion y abordaje del entorno familiar, sumandolo al proceso terapeutico. Lo mismo ocurre con la obra social, para quien el paciente no debe ser un numero de afiliado, sino que debe estar al tanto de todo el trabajo que se realiza sobre esa persona",
-			"parrafo 4": "Lo que hace de Neuma Respiratoria un centro diferente y con caracteristcias particulares son dos cualidades esenciales. En primer lugar, a partir de la concepcion holistica de la salud generamos un estandar propio de comunicacion con el paciente. Todo el equipo profesional esta involucrado con el y su tratamiento, logrando una actitud distinta tanto desde el paciente como de la familia hacia la enfermedad, que genera predispocision en positivo indispensable para su recuperacion. La segunda caracteristica esta vinculada con la constante formacion de nuestros recursos humanos, registrando y sistematizando resultados, ajustando tratamientos y acciones en base a conocimiento empirico en beneficio de la ciencia y de los pacientes"
+			"parrafo2": "Nuestro equipo de profesionales tiene una idea clara para conseguir nuestro objetivo: Abordar al paciente desde una concepción holística, promoviendo en la persona armonía y responsabilidad en la gestión de su propia vida, de los propios recursos, con sus limites y disfunciones, en cada una de las dimensiones de su persona: física, emocional, intelectual y espiritual.",
+			"parrafo3": "Nuestra concepción entiende al paciente como un ser integrado en si mismo y en una familia, por lo tanto el tratamiento supone la incorporación y abordaje del entorno familiar, sumándolo al proceso terapéutico.",
+			"parrafo4": "<h3><span>En Neuma</span></h3>Generamos un estándar propio de comunicación con el paciente; el equipo profesional esta involucrado con él y su tratamiento, promoviendo una sana actitud hacia su estado de salud, generando predisposición en positivo, indispensable para su recuperación.<br/>Estamos en constante formación de nuestros recursos humanos, registrando y sistematizando resultados, ajustando tratamientos y acciones en beneficio de la ciencia y de los pacientes."
 		}
-	}
+	},
+
+	"equipo" : [
+		{
+			"name" : "Silvina Rafaela Wrubleski",
+			"spacialty": "Gerencia",
+			"mp" : "",
+			"pathImg": ""
+		},
+		{
+			"name" : "María Eugenia Listán y Amor",
+			"spacialty": "Gerencia",
+			"mp" : "",
+			"pathImg": ""
+		},
+		{
+			"name" : "Dr. Nestor Javier Bellusci",
+			"spacialty": "Dirección Médica",
+			"mp" : "",
+			"pathImg": ""
+		},
+		{
+			"name" : "Dr. Marcelo Ferreira",
+			"spacialty": "Neurocirujano",
+			"mp" : "MN 114.166",
+			"pathImg": ""
+		},
+		{
+			"name" : "Dr. Roberto Jorge Gisín",
+			"spacialty": "Médico Fisiatra",
+			"mp" : "MP 3975"
+		},
+		{
+			"name" : "Dra. Zaida Noemí Bedrán",
+			"spacialty": "Médica Reumatóloga",
+			"mp" : "MP 5016"
+		},
+		{
+			"name" : "Dr. Héctor Martín Fernández",
+			"spacialty": "Médico Neumonólogo",
+			"mp" : "MP 5311 - MN 149994"
+		},
+		{
+			"name" : "Dra. Liliana Esther Martínez",
+			"spacialty": "Médica Clínica",
+			"mp" : "MP 4907"
+		},
+		{
+			"name" : "Dr. Juan Pablo Romero",
+			"spacialty": "Médico Terapia Intensiva-Neurointensivista",
+			"mp" : "MP 5365 - MN 132178"
+		},
+		{
+			"name" : "Lic. Walker Emilio Sosa",
+			"spacialty": "Kinesiólogo",
+			"mp" : "MP 148"
+		},
+		{
+			"name" : "Lic. Juan José Gómez",
+			"spacialty": "Kinesiólogo",
+			"mp" : "MP 212"
+		},
+		{
+			"name" : "Lic. Marcela Paredes",
+			"spacialty": "Psicopedagoga",
+			"mp" : "MP 173"
+		},
+		{
+			"name" : "Lic. Cintia Tatiana Medica",
+			"spacialty": "Psicóloga",
+			"mp" : "MP 560"
+		}
+	]
 }

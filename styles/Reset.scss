@@ -1,5 +1,9 @@
 @import 'variables';
 
+:root {
+  scroll-behavior: smooth;
+}
+
 /* Reseteamos los margin y paddings de todas las etiquetas */
 *,
 *::before,
@@ -42,10 +46,6 @@ a {
 /* ... excepto los que se encuentran en párrafos */
 p a {
   display: inline;
-}
-
-p {
-  margin-bottom: 1rem;
 }
 
 /* Quitamos los puntos de los <li> */

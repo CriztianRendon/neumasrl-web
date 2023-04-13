@@ -20,7 +20,7 @@ const CardsEspecialidades = () => {
 								__html: t('home.especialidades.title'),
 							}}
 						/>
-						<p>{t('home.especialidades.text')}</p>
+						<p className='p-block--principal'>{t('home.especialidades.text')}</p>
 						<a
 							href='https://github.com/CriztianRendon'
 							target='_blank'
@@ -30,10 +30,10 @@ const CardsEspecialidades = () => {
 						</a>
 					</div>
 
-					<div className='wrapper wrapper__cards wrapper__card--especialidad'>
+					<div className='wrapper wrapper__cards wrapper__cards--especialidad'>
 						{especialidades.map((especialidad, index) => (
 							<div
-								className='card card-especialidades'
+								className='card card--especialidad'
 								key={index}>
 								<div className='wrapper wrapper__img'>
 									<img

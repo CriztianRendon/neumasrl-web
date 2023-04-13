@@ -2,10 +2,10 @@
 @import 'variables';
 @import 'navbar';
 @import 'hero';
-@import 'equipo';
 
 h1,
-h2 {
+h2,
+h3 {
 
   /* Background de los span en titulos h1 y h2*/
   span {
@@ -38,9 +38,19 @@ h2 {
 h3 {
   font-size: $font-md;
 
-  /*Posicion de Background de los span en titulos h2*/
+  /*Posicion de Background de los span en titulos h3*/
   span {
     background-position: 100% 85%;
+  }
+}
+
+.p-block {
+  &--principal {
+    margin-bottom: 2.5rem;
+  }
+
+  &--secondary {
+    margin-bottom: 1rem;
   }
 }
 
@@ -48,20 +58,36 @@ h3 {
   &--section {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
-
   }
 
-  &--decoration {
-    bottom: -1.75rem;
+  &--decoration1 {
+    bottom: -2.5rem;
     right: -0.5rem;
     position: absolute;
-    width: 5rem;
+    width: 8rem;
+    z-index: -1;
+  }
 
+  &--decoration2 {
+    bottom: -3rem;
+    left: -0.75rem;
+    position: absolute;
+    width: 10rem;
+    z-index: -1;
   }
 
   &--card-especialidad {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+  }
+
+  &--card-equipo {
+    width: 50%;
+    height: 50%;
+  }
+
+  &--cobertura {
+    filter: opacity(80%);
   }
 }
 
@@ -100,10 +126,25 @@ h3 {
 
   &__cards {
     display: flex;
-    flex-flow: column wrap;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    gap: 1.5rem;
+    gap: 16px;
+
+    &--especialidad {
+      flex-flow: column wrap;
+
+    }
+
+    &--cobertura {
+      padding-top: 1rem;
+      flex-flow: row nowrap;
+      overflow-x: scroll;
+      scrollbar-width: thin;
+      /* ancho de la barra de desplazamiento */
+      scrollbar-color: $primary-color $secondary-color;
+      /* color del "pulgar" y del fondo */
+    }
+    
   }
 
   &__bodyCard {
@@ -115,6 +156,7 @@ h3 {
 
   &__img {
     position: relative;
+    text-align: center;
 
     &--section {
       padding-top: 1rem;
@@ -122,35 +164,82 @@ h3 {
       padding-left: 1rem;
       margin-bottom: 3rem;
     }
+
+    &--card-equipo {
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+      padding: 2rem;
+      background-color: $gray;
+
+    }
+
+    &--full {
+      padding-top: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    &--footer {
+      max-width: 150px;
+      margin: auto;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+  }
+  &--copywrite {
+    font-size: $font-xs;
+    font-family: $font-ppal;
+    font-weight: $weight-ppal-bold;
+    color: $gray;
+    padding-top: 0.5rem;
+    padding-bottom: 4.5rem;
+    background-color: $black;
+
   }
 
   &__swicth-lang {
     display: flex;
     gap: 1rem;
     position: fixed;
-    bottom: 0.25rem;
-    background-color: $gray;
-    padding: 0.5rem;
+    bottom: 0.75rem;
+    left: 1rem;
+    background-color: $white;
+    padding: 0.25rem;
+    border: 2px solid $gray;
     border-radius: 12px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 
   }
 
   &__text {
-    display:flex;
+    display: flex;
     flex-flow: column wrap;
     margin-bottom: 1rem;
   }
 }
 
 .card {
-  width: 100%;
   // padding: 1rem;
   border: 1px solid $gray;
   border-radius: 12px;
   background-color: $white;
- box-shadow: 5px 5px 10px $gray,
+  box-shadow: 5px 5px 10px $gray;
 
+  &--especialidad {
+    width: 100%;
+  }
+
+  &--cobertura {
+    min-width: 50%;
+  }
+
+}
+
+.text {
+  &--primary {
+    font-size: $font-md;
+
+  }
 }
 
 .link-text {
@@ -161,7 +250,7 @@ h3 {
   font-family: $font-ppal;
   font-weight: $weight-ppal-bold;
 
-  &--card{
+  &--card {
 
     align-self: flex-end;
   }
@@ -244,4 +333,22 @@ h3 {
     outline-offset: 0px;
     outline: 2px solid $terciary-color;
   }
+}
+
+.footer {
+  text-align: center;
+  background-color: $primary-color;
+  color: $white;
+  
+}
+
+.icon-wp {
+  position: fixed;
+  right: 1rem;
+  bottom: 0.5rem;
+  color: $white;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 0.75rem 0.75rem;
+  z-index: 99;
 }

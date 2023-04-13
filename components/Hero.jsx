@@ -19,7 +19,7 @@ const Hero = () => {
 						className='hero-title'
 						dangerouslySetInnerHTML={{__html: t('home.hero.hero-title'),}}>
 					</h1>
-					<p className='hero-text'>{t('home.hero.hero-text')}</p>
+					<p className='p-block--principal hero-text'>{t('home.hero.hero-text')}</p>
 					<a
 						href='https://github.com/CriztianRendon'
 						target='_blank'

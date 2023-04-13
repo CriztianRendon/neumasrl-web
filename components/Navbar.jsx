@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 //AWESOME ICONS
@@ -64,7 +64,7 @@ function Navbar() {
 						{i18n.language === 'es' && (
 							<li className='item'>
 								<NavLink
-									to='/'
+									to='/#coberturas'
 									onClick={handleMenuClose}
 									className='navlink'>
 									coberturas

@@ -1,0 +1,106 @@
+{
+  "obrasSociales" : [
+    {
+      "title": "Aca Salud",
+      "pathImg": "/aca-salud"
+    },
+    {
+      "title": "APTM",
+      "pathImg": "/aptm"
+    },
+    {
+      "title": "Asociación Mutual de Proteccion Familiar",
+      "pathImg": "/ampf"
+    },
+    {
+      "title": "Cámara del Tabaco",
+      "pathImg": "/camara-del-tabaco"
+    },
+    {
+      "title": "Obra Social de Camioneros",
+      "pathImg": "/osca"
+    },
+    {
+      "title": "Domin SRL",
+      "pathImg": "/domin"
+    },
+    {
+      "title": "City Salud",
+      "pathImg": "/city-salud"
+    },
+    {
+      "title": "IOSFA",
+      "pathImg": "/iosfa"
+    },
+    {
+      "title": "Jerárquicos Salud",
+      "pathImg": "/jerarquicos-salud"
+    },
+    {
+      "title": "Medifé",
+      "pathImg": "/medife"
+    },
+    {
+      "title": "OSDE",
+      "pathImg": "/osde"
+    },
+    {
+      "title": "OSECAC",
+      "pathImg": "/osecac"
+    },
+    {
+      "title": "OSPATCA",
+      "pathImg": "/ospatca"
+    },
+    {
+      "title": "OSPSA",
+      "pathImg": "/ospsa"
+    },
+    {
+      "title": "OSPJN",
+      "pathImg": "/ospjn"
+    },
+    {
+      "title": "Prevención Salud",
+      "pathImg": "/prevencion-salud"
+    },
+    {
+      "title": "SanCorSalud",
+      "pathImg": "/sancorsalud"
+    },
+    {
+      "title": "SanCorSalud",
+      "pathImg": "/sancorsalud"
+    },
+    {
+      "title": "SCIS",
+      "pathImg": "/scis"
+    },
+    {
+      "title": "SMAUNaM",
+      "pathImg": "/smaunam"
+    },
+    {
+      "title": "Swiss Medical",
+      "pathImg": "/swiss-medical"
+    },
+    {
+      "title": "Unión Personal",
+      "pathImg": "/union-personal"
+    }
+  ],
+  "arts" : [
+    {
+      "title": "Experta ART",
+      "pathImg": "/experta-art"
+    },
+    {
+      "title": "Prevención ART",
+      "pathImg": "/prevencion-art"
+    },
+    {
+      "title": "Provincia ART",
+      "pathImg": "/provincia-art"
+    }
+  ]
+}

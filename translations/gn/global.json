@@ -18,7 +18,8 @@
 
 		"especialidades": {
 			"title": "Especialidades",
-			"text": "Ore especialista-kuéra omba’apo oñondive ha oñecentra ome’ẽvo atención integral ore paciente-kuérape, diagnóstico guive tratamiento ha recuperación peve"
+			"text": "Ore especialista-kuéra omba’apo oñondive ha oñecentra ome’ẽvo atención integral ore paciente-kuérape, diagnóstico guive tratamiento ha recuperación peve",
+			"button": "ohecha turno-kuéra"
 		},
 
 		"equipo": {
@@ -43,44 +44,52 @@
 
   "especialidades": [
 		{
-			"title": "Clínica pohã",
-			"extract": "IPS pohanohára familiar, oñangarekóva mitã, kakuaáva ha ijedámava rehe",
-			"text": ""
-		},
-		{
-			"title": "Internamiento",
-			"extract": "Práctica especializada medicina respiratoria ha rehabilitación neurológica-pe",
-			"text": "<p>Neuma Respiratorio ha'e peteî clínica internada especializada medicina respiratoria ha rehabilitación neurológica.</p><p>Rehabilitación neurológica ha'e peteî proceso ojesarekóva equipo interdisciplinario rupive umi tapicha ohasa asýva algún alteración sistema nervioso ikatúva ohupyty mejora funcionalidad, independencia omotenondévo actividad ára ha ára ha ojuhúva alivio síntoma propio.</p><p>Rojapo peteî equipo humano ikatupyryetereíva disponible paciente-pe oevalua ha oñatende haguã umi mba'e oikotevêva umi ohasa asýva proceso patología térã neurológico ha oikotevêva ñangareko ha atención ndikatúiva oñeme'ê ambulatorio-pe.</p><p>Oreko atención médica, atención de enfermería ha profesional umi área iñambuéva oikéva proceso de rehabilitación: fisioterapeuta, neurólogo, kinesiólogo ha psicólogo, ombohapéva evolución umi paciente hospitalizado atención integral rupive.</p>"
-		},
-		{
 			"title": "Pulmonología",
+			"pathImg": "/neumonologia",
 			"extract": "Estudio, diagnóstico, tratamiento ha rehabilitación mba'asy respiratoria rehegua",
 			"text": "<p>Pulmonología ha'e pe pohã pehẽngue oñe'ẽva fisiología ha patología sistema respiratorio rehe. Hembipotápe tenondegua ha'e estudio etología, epidemiología, patogénesis, fisiopatología, semiología, diagnóstico, tratamiento, prevención ha rehabilitación mba'asy respiratoria.</p><p><b>Mba’e mba’asypa oestudia Pulmonología.</b></br>Ikatu haguã ojehecha porãve umi mba'asy oestudiáva pulmonología, iporã oñemboja'o sistema respiratorio opaichagua pehẽngue ha órgano-pe, ikatu haguã oñehesa'ỹijo ha upéi oñentende umi proceso patológico ojejapovéva.</p><p><b>Tracto respiratorio yvategua</b></br>Umíva apytépe oĩ umi rape aérea oĩva tórax okaháre, he'iséva, ryekue ha senos paranasal, faringe, laringe ha tráquea. Ko nivel-pe, umi mba’asy ojehechavéva oguereko jepi naturaleza alérgica, irritativa térã infecciosa, sapy’ánte oikotevẽ peteĩ estudio multidisciplinario pulmonología, alergología ha otorhinolaringología rupive, umíva apytépe oĩ:</p><ul><li>Rinitis (inflamación de la mucosa nasal)</li><li>Sinusitis (ocupación mucosa ha inflamatoria umi senos paranasal)</li><li>Faringitis</li><li>Laringitis</li><li>Tracto respiratorio inferior</li><li>Oike ipype tráquea, bronquios ha bronquiolos. Ko nivel-pe, umi mba’asy ojehechavéva ha’e umi oityvyróva bronquios, ikatúva ojedilata (bronquiectasis) térã oñemboty (asma ha enfermedad pulmonar obstructiva crónica). Umi mba’asy omoheñóiva obstrucción bronquial omoheñói temiandu apytu’ũ mbyky ha ryrýi.</li></ul><p><b>Pulmón:</b> Ha'e umi órgano hyepýpe oikohápe oxígeno ñembohasa ohóva atmósfera yvytugui tuguype. Umi mba’asy ningo jepivegua oporogueraháva, jepémo oĩ inflamación pulmonar ndaha’éiva infecciosa, sa’ive ojehecha ha ojehecha mba’asy reumática térã tekohápe.</p><p><b>Pleura:</b> Ha’e mokõi tela porã ojeréva pulmón rehe, ijapytépe oĩ peteĩ cavidad virtual (ojeheróva espacio pleural). Pe espacio pleural naturalmente vacío ikatu henyhẽ líquido (derrame pleural), aire (neumotórax) térã pus (empiema)-gui.</p><p><b>Mbaʼe síntomapa jahechavaʼerã?</b></br>Oiméramo reguereko peteĩva ko’ã mba’asy, tekotevẽ reñe’ẽ pulmonólogo ndive:</p><ul><li>Sensación de falta de aire (esfixia térã disnea)</li><li>Silbato pecho-pe (sibilancia)</li><li>Tos persistente rehegua</li><li>Expectoración purulenta ha, opa mba’e ári, pe omoirûva tuguy ñemongu’e</li><li>Pecho térã lomo hasy</li><li>Ojehechakuaava’erã oke jave ronquido ha interrupción respiración especialmente umi orekóva mba’asy korasõ rehegua, presión arterial ha oke térã kane’õiterei ára pukukue</li>"
 		},
-		{
-			"title": "Fisiatría",
-			"extract": "Ojehapejoko, ojehechakuaa, ojehecha ha oñepohano mba’asy estado rehegua",
-			"text": "<p>Fisiatría ha’e peteĩ especialidad pohã rehegua omokyre’ỹva tesãi ha ohapejokóva, ohechakuaa, oevalua, oprescribi ha oñemonguera mba’asy estado.</p><p>Omopyenda prioridad ohupytývo umi objetivo funcionalidad reintegración ergonómica, ocupacional ha social. Oiporu medio terapéutico farmacológico, físico, natural térã modificado no ionizador, ocupacional, lenguaje, comunicación ha cognición, pytyvõ educativo ha técnico oimehápe ortoprótesis ojeporúva oka gotyo.</p><p>Oike estudio, detección, diagnóstico, prevención ha tratamiento clínico térã quirúrgico umi paciente orekóva proceso discapacitado.</p>"
-		},
-		{
+				{
 			"title": "Neurología",
+			"pathImg": "/neurologia",
 			"extract": "Control clínico ha monitoreo umi paciente orekóva trastorno neurológico ha neurodegenerativo",
 			"text": "<p>Control clínico ha monitoreo umi paciente orekóva trastorno neurológico ha neurodegenerativo</p><p>Oficina clínica neurológica / neurointensiva</p><ul><li>Doppler eco craneal</li><li>Tumor cerebral</li><li>Trauma iñakã</li><li>Akãrasy tipo quirúrgico</li><li>Tumor medular</li><li>Hidrocefalo</li><li>Aneurisma cerebral</li><li>Malformado Arnold Chiari</li></ul>"
 		},
 		{
+			"title": "Fisiatría",
+			"pathImg": "/fisiatria",
+			"extract": "Ojehapejoko, ojehechakuaa, ojehecha ha oñepohano mba’asy estado rehegua",
+			"text": "<p>Fisiatría ha’e peteĩ especialidad pohã rehegua omokyre’ỹva tesãi ha ohapejokóva, ohechakuaa, oevalua, oprescribi ha oñemonguera mba’asy estado.</p><p>Omopyenda prioridad ohupytývo umi objetivo funcionalidad reintegración ergonómica, ocupacional ha social. Oiporu medio terapéutico farmacológico, físico, natural térã modificado no ionizador, ocupacional, lenguaje, comunicación ha cognición, pytyvõ educativo ha técnico oimehápe ortoprótesis ojeporúva oka gotyo.</p><p>Oike estudio, detección, diagnóstico, prevención ha tratamiento clínico térã quirúrgico umi paciente orekóva proceso discapacitado.</p>"
+		},
+		{
+			"title": "Clínica pohã",
+			"pathImg": "/medicina-clinica",
+			"extract": "IPS pohanohára familiar, oñangarekóva mitã, kakuaáva ha ijedámava rehe",
+			"text": ""
+		},
+		{
 			"title": "Kinesiología",
+			"pathImg": "/kinesiologia",
 			"extract": "Atención función respiratoria guive, péva rehabilitación proceso agudo ha tratamiento síntoma-kuéra rehe",
 			"text": "<p>Oñemboja paciente rehe función respiratoria guive, taha'e rehabilitación proceso agudo térã exacerbación síntoma-pe. Área neurológica guive, aplicación técnica rupive recuperación general-pe guarã.</p><p>Avei ojejapo umi tratamiento rehabilitación física rehegua ha umi tratamiento kinesiología ha fisioterapia convencional ha ndaha’éiva convencional, ha’eháicha:</p><ul><li>rehabilitación cardiorespiratoria</li><li>Micro electrólisis percutánea (MEP)</li><li>aplicación cupping</li><li>Aguja seca</li><li>Acupuntura</li><li>Cinta neuromuscular</li></ul>"
 		},
 		{
 			"title": "Reumatología",
+			"pathImg": "/reumatologia",
 			"extract": "Ñangareko umi mba’asy médico (no quirúrgico) sistema musculoesquelético ha tejido conectivo rehegua",
 			"text": "<p>Oñepohano umi mba’asy médico (ndaha’éiva quirúrgico) sistema musculoesquelético ha tejido conectivo rehegua, oikehápe hetaiterei entidad clínica ojekuaáva colectivamente mba’asy reumática ramo, umívape oñembojoapy tuicha aty mba’asy orekóva involucramiento sistémico: mba’asy tejido conectivo rehegua.</p><p>Umi reumatólogo oñatende principalmente umi paciente orekóva entidad clínica orekóva involucramiento localizado generalmente ombyaíva umi articulación, hueso, músculo, tendones ha fascias, ha umi mba'asy jepe orekóva expresión sistémica, ha'eháicha osteoartritis, artritis reumatoide, lupus, gota ha ambue.</p>"
 		},
 		{
 			"title": "Psicología ha Psicopedagogía",
+			"pathImg": "/psicologia-psicopedagogia",
 			"extract": "Paciente internado ha oficina-pegua ñangareko. Enfoque integral familiar ha individual, diagnóstico ha tratamiento",
 			"text": "<p>Terapia psicológica privada oikuave'ë peteî espacio de privacidad, pytyvõ, contención ha tembiporu iñambuéva ikatu haguã peteî tapicha ombohovái upe tipo particular de sufrimiento mental ha emocional ombohasa asýva ichupe.</p><p>A su vez, Neuma Respiratorio, oreko psicología área hospitalización oikuave'ëva pytyvõ paciente umi tekotevê psicoemocional heñóiva proceso de diagnóstico, tratamiento ha alta.Ojejapo umi diagnóstico psicológico ha estimulación cognitiva ikatu haguã oñembohetave independencia ha bienestar paciente-pe.</p><p>Peteî tapicha ikatu ojerure psicólogo-pe: peteî consulta térã tratamiento psicoterapéutico, psicodiagnóstico individual, evaluación neuropsicológica, certificado de ajuste trabajo ha certificación omboguata haguã auto.</p><p>Psicopedagogía-gui:</p><ul><li>Enfoque integral familiar</li><li>Neuropsicología Aplicada</li><li>Rehabilitación cognitiva</li><li>Evaluación neuropsicológica umi kakuaáva ha kakuaáva ijedámavape</li><li>Umi perfil neuropsicológico</li><li>Rehabilitación neurocognitiva</li><li>TEC (trauma cerebral)</li><li>CVA (accidente cerebrovascular)</li><li>AD (Mba’asy Alzheimer)</li><li>ALS (esclerosis lateral amiotrófica)</li><li>Esclerosis múltiple ha ambue mba’asy ndahetáiva ohypýiva umi función básica</li></ul>"
+		},
+		{
+			"title": "Internamiento",
+			"pathImg": "/internacion",
+			"extract": "Práctica especializada medicina respiratoria ha rehabilitación neurológica-pe",
+			"text": "<p>Neuma Respiratorio ha'e peteî clínica internada especializada medicina respiratoria ha rehabilitación neurológica.</p><p>Rehabilitación neurológica ha'e peteî proceso ojesarekóva equipo interdisciplinario rupive umi tapicha ohasa asýva algún alteración sistema nervioso ikatúva ohupyty mejora funcionalidad, independencia omotenondévo actividad ára ha ára ha ojuhúva alivio síntoma propio.</p><p>Rojapo peteî equipo humano ikatupyryetereíva disponible paciente-pe oevalua ha oñatende haguã umi mba'e oikotevêva umi ohasa asýva proceso patología térã neurológico ha oikotevêva ñangareko ha atención ndikatúiva oñeme'ê ambulatorio-pe.</p><p>Oreko atención médica, atención de enfermería ha profesional umi área iñambuéva oikéva proceso de rehabilitación: fisioterapeuta, neurólogo, kinesiólogo ha psicólogo, ombohapéva evolución umi paciente hospitalizado atención integral rupive.</p>"
 		}
 	],
 
@@ -90,7 +99,7 @@
 			"parrafo1": "Neuma Respiratoria ha'e peteîha centro especializado rehabilitación pulmonar tetã ryepýpe ome'êva servicio de salud iporãitereíva",
 			"parrafo2": "Ore ha'e peteî equipo de profesionales orekóva idea hesakãva ohupytývo peteî objetivo: oñemboja paciente rehe peteî concepción holística guive, según generador de salud ha'e omokyre'ÿvo armonía ha responsabilidad upe tapichápe gestión peteîva rekovépe, umi recurso propio , ilímite ha disfunción reheve, peteĩteĩ umi dimensión ipersonal-pe: física, emocional, intelectual ha espiritual",
 			"parrafo3": "Ñande concepción ontende paciente ha'eha peteî ser integrado ijehe ha peteî familia-pe, upévare tratamiento oimo'ã incorporación ha enfoque ambiente familiar, omoîvo proceso terapéutico-pe. Péicha avei ojehu tembiapo social rehe, chupekuéra guarã paciente ndaha'éi va'erã número de afiliado, sino oikuaava'erã opavave tembiapo ojejapóva upe tapicha rehe",
-			"parrafo 4": "Pe ojapóva Neuma Respiratorio-gui peteĩ centro iñambuéva orekóva característica particular ha’e mokõi cualidades esencial. Primero, pe concepción holística salud rehegua guive jagenera ñande propio estándar de comunicación pe paciente ndive. Todo el equipo profesional oime involucrado hendive ha tratamiento orekóva, ohupytýva actitud iñambuéva paciente ha familia-gui ko mba'asy rehe, ogenera predisposición positiva esencial ojerekupera haguã. Mokõiha característica ojoaju capacitación constante ñande recurso humano, oregistra ha osistematiza resultado, omohenda tratamiento ha acción oñemopyendáva conocimiento empírico beneficio ciencia ha paciente-kuérape"
+			"parrafo4": "Pe ojapóva Neuma Respiratorio-gui peteĩ centro iñambuéva orekóva característica particular ha’e mokõi cualidades esencial. Primero, pe concepción holística salud rehegua guive jagenera ñande propio estándar de comunicación pe paciente ndive. Todo el equipo profesional oime involucrado hendive ha tratamiento orekóva, ohupytýva actitud iñambuéva paciente ha familia-gui ko mba'asy rehe, ogenera predisposición positiva esencial ojerekupera haguã. Mokõiha característica ojoaju capacitación constante ñande recurso humano, oregistra ha osistematiza resultado, omohenda tratamiento ha acción oñemopyendáva conocimiento empírico beneficio ciencia ha paciente-kuérape"
 		}
 	}
 }

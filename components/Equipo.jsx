@@ -19,16 +19,16 @@ const Equipo = () => {
 					<h2
 						className='section-title'
 						dangerouslySetInnerHTML={{ __html: t('home.equipo.title') }}></h2>
-					<p>{t('home.equipo.text')}</p>
+					<p className='p-block--secondary'>{t('home.equipo.text')}</p>
 				</div>
 				<div className='wrapper wrapper__img wrapper__img--section'>
 					<img
-						className='img img--section'
+						className='img--section'
 						src={EquipoImg}
 						alt='Hero imagen'
 					/>
 					<img
-						className='img img--decoration'
+						className='img img--decoration1'
 						src={DecorImg}
 						alt='Hero imagen'
 					/>

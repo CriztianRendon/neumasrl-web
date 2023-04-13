@@ -6,7 +6,9 @@ const ContactForm = () => {
 		<div className='section'>
 			<div className='container'>
 				<div className='wrapper'>
-					<h2>{t('home.contact-form.title')}</h2>
+					<h2
+						dangerouslySetInnerHTML={{ __html: t('home.contact-form.title') }}
+					/>
 					<form>
 						<input
 							className='text-field'

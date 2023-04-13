@@ -8,6 +8,7 @@ $terciary-color: #7ABDD4;
 $black: #353535;
 $gray: #f0f0f0;
 $white: #fff;
+$white-50: #ffffff75;
 
 //FONTS
 $font-ppal: 'Poppins', sans-serif;
@@ -29,6 +30,11 @@ $font-xs: 14px;
   border: 2px solid $color-border;
 
   &:hover {
+    background-color: $bg-hover;
+    color: $color-hover;
+  }
+  
+  &:active {
     background-color: $bg-hover;
     color: $color-hover;
   }
