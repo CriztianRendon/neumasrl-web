@@ -64,7 +64,7 @@ function Navbar() {
 						{i18n.language === 'es' && (
 							<li className='item'>
 								<NavLink
-									to='/#coberturas'
+									to='/coberturas'
 									onClick={handleMenuClose}
 									className='navlink'>
 									coberturas

@@ -124,6 +124,19 @@ h3 {
 .wrapper {
   margin-bottom: 1rem;
 
+  &__rssapp-carousel {
+
+    background-color: #25D366;
+    width: 100% !important;
+    overflow: hidden;
+
+    .rssapp-title-header{
+      font-size: $font-xs;
+      display: none !important;
+    }
+
+  }
+
   &__cards {
     display: flex;
     padding-top: 2rem;
@@ -135,9 +148,19 @@ h3 {
 
     }
 
-    &--cobertura {
+    &--coberturas-horizontal {
       padding-top: 1rem;
       flex-flow: row nowrap;
+      overflow-x: scroll;
+      scrollbar-width: thin;
+      /* ancho de la barra de desplazamiento */
+      scrollbar-color: $primary-color $secondary-color;
+      /* color del "pulgar" y del fondo */
+    }
+
+    &--coberturas-list {
+      padding-top: 1rem;
+      flex-flow: row wrap;
       overflow-x: scroll;
       scrollbar-width: thin;
       /* ancho de la barra de desplazamiento */
@@ -229,8 +252,12 @@ h3 {
     width: 100%;
   }
 
-  &--cobertura {
+  &--cobertura-horizontal {
     min-width: 50%;
+  }
+
+  &--cobertura-list {
+    flex-basis: calc(50% - 8px);
   }
 
 }

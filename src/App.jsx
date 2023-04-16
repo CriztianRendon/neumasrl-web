@@ -3,8 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 
 // PAGES
 import Home from '../pages/Home';
-import AboutUs from '../pages/AboutUs';
 import Especialidades from '../pages/Especialidades';
+import AboutUs from '../pages/AboutUs';
+import Coberturas from '../pages/Coberturas';
+
 // COMPONENTS
 import MainLayout from '../components/MainLayout';
 import NotFound from '../pages/NotFound';
@@ -12,7 +14,6 @@ import NotFound from '../pages/NotFound';
 import { useTranslation } from 'react-i18next';
 
 import '../styles/app.scss';
-
 
 function App() {
 	const [t, i18n] = useTranslation('global');
@@ -35,6 +36,11 @@ function App() {
 					path={`/especialidades`}
 					element={<Especialidades />}
 				/>
+								<Route
+					path={`/coberturas`}
+					element={<Coberturas />}
+				/>
+	
 				<Route
 					path={`/nosotros`}
 					element={<AboutUs />}

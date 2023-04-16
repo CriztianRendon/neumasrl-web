@@ -155,3 +155,10 @@ body {
   /* (Opcional) */
   -moz-osx-font-smoothing: grayscale;
 }
+
+hr {
+  height: 1px;
+  width: 50%;
+  margin: 0.25rem auto;
+  background-color: $gray;
+}

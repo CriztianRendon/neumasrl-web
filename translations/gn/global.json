@@ -101,5 +101,77 @@
 			"parrafo3": "Ñande concepción ontende paciente ha'eha peteî ser integrado ijehe ha peteî familia-pe, upévare tratamiento oimo'ã incorporación ha enfoque ambiente familiar, omoîvo proceso terapéutico-pe. Péicha avei ojehu tembiapo social rehe, chupekuéra guarã paciente ndaha'éi va'erã número de afiliado, sino oikuaava'erã opavave tembiapo ojejapóva upe tapicha rehe",
 			"parrafo4": "Pe ojapóva Neuma Respiratorio-gui peteĩ centro iñambuéva orekóva característica particular ha’e mokõi cualidades esencial. Primero, pe concepción holística salud rehegua guive jagenera ñande propio estándar de comunicación pe paciente ndive. Todo el equipo profesional oime involucrado hendive ha tratamiento orekóva, ohupytýva actitud iñambuéva paciente ha familia-gui ko mba'asy rehe, ogenera predisposición positiva esencial ojerekupera haguã. Mokõiha característica ojoaju capacitación constante ñande recurso humano, oregistra ha osistematiza resultado, omohenda tratamiento ha acción oñemopyendáva conocimiento empírico beneficio ciencia ha paciente-kuérape"
 		}
-	}
+	},
+
+	"equipo" : [
+		{
+			"name" : "Silvina Rafaela Wrubleski",
+			"spacialty": "Gerencia",
+			"mp" : "",
+			"pathImg": ""
+		},
+		{
+			"name" : "María Eugenia Listán y Amor",
+			"spacialty": "Gerencia",
+			"mp" : "",
+			"pathImg": ""
+		},
+		{
+			"name" : "Dr. Nestor Javier Bellusci",
+			"spacialty": "Dirección Médica",
+			"mp" : "",
+			"pathImg": ""
+		},
+		{
+			"name" : "Dr. Marcelo Ferreira",
+			"spacialty": "Neurocirujano",
+			"mp" : "MN 114.166",
+			"pathImg": ""
+		},
+		{
+			"name" : "Dr. Roberto Jorge Gisín",
+			"spacialty": "Médico Fisiatra",
+			"mp" : "MP 3975"
+		},
+		{
+			"name" : "Dra. Zaida Noemí Bedrán",
+			"spacialty": "Médica Reumatóloga",
+			"mp" : "MP 5016"
+		},
+		{
+			"name" : "Dr. Héctor Martín Fernández",
+			"spacialty": "Médico Neumonólogo",
+			"mp" : "MP 5311 - MN 149994"
+		},
+		{
+			"name" : "Dra. Liliana Esther Martínez",
+			"spacialty": "Médica Clínica",
+			"mp" : "MP 4907"
+		},
+		{
+			"name" : "Dr. Juan Pablo Romero",
+			"spacialty": "Médico Terapia Intensiva-Neurointensivista",
+			"mp" : "MP 5365 - MN 132178"
+		},
+		{
+			"name" : "Lic. Walker Emilio Sosa",
+			"spacialty": "Kinesiólogo",
+			"mp" : "MP 148"
+		},
+		{
+			"name" : "Lic. Juan José Gómez",
+			"spacialty": "Kinesiólogo",
+			"mp" : "MP 212"
+		},
+		{
+			"name" : "Lic. Marcela Paredes",
+			"spacialty": "Psicopedagoga",
+			"mp" : "MP 173"
+		},
+		{
+			"name" : "Lic. Cintia Tatiana Medica",
+			"spacialty": "Psicóloga",
+			"mp" : "MP 560"
+		}
+	]
 }

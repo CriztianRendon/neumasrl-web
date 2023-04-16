@@ -20,7 +20,7 @@ const CardsEquipo = () => {
 				</div>
 
 				<div className='wrapper wrapper__cards wrapper__cards--especialidad'>
-					{equipo.map((medico, index) => (
+				{equipo.admin.map((medico, index) => (
 						<div
 							className='card card--especialidad'
 							key={index}>
@@ -34,6 +34,26 @@ const CardsEquipo = () => {
 							</div>
 							<div className='wrapper__bodyCard'>
 								<h3>{t(medico.name)}</h3>
+							<hr />
+								<p className='text--primary'>{t(medico.spacialty)}</p>
+							</div>
+						</div>
+					))}
+					{equipo.staffMedico.map((medico, index) => (
+						<div
+							className='card card--especialidad'
+							key={index}>
+							<div className='wrapper__img wrapper__img--card-equipo'>
+              <FontAwesomeIcon className='img img--card-equipo' icon={faUserNurse} />
+								{/* <img
+									className='img img--card-especialidad '
+									src={`/img${t(medico.pathImg)}.jpg`}
+									alt='card-especialidad'
+								/> */}
+							</div>
+							<div className='wrapper__bodyCard'>
+								<h3>{t(medico.name)}</h3>
+								<hr />
 								<p className='text--primary'>{t(medico.spacialty)}</p>
 								<div className='wrapper'></div>
 								<Link

@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactForm';
 import Equipo from '../components/Equipo';
 import Hero from '../components/Hero';
 import Noticias from '../components/Noticias';
-import Coberturas from '../components/Coberturas';
+import CardsCoberturas from '../components/CardsCoberturas';
 
 const Home = () => {
 	const [t, i18n] = useTranslation('global');
@@ -15,7 +15,7 @@ const Home = () => {
 			<Hero />
 			<Equipo />
 			<CardsEspecialidades />
-			{lang === 'es' ? <Coberturas /> : ''}
+			{lang === 'es' ? <CardsCoberturas /> : ''}
 			<Noticias />
 			<ContactForm />
 		</>
