@@ -102,75 +102,80 @@
 			"parrafo4": "O que torna o Neuma Respiratório um centro diferente e com características particulares são duas qualidades essenciais. Em primeiro lugar, a partir da concepção holística da saúde geramos nosso próprio padrão de comunicação com o paciente. Toda a equipe profissional está envolvida com ele e seu tratamento, conseguindo uma atitude diferenciada tanto do paciente quanto da família frente à doença, o que gera uma predisposição positiva imprescindível para sua recuperação. A segunda característica está ligada ao treinamento constante de nossos recursos humanos, registrando e sistematizando resultados, ajustando tratamentos e ações com base no conhecimento empírico em benefício da ciência e dos pacientes"
 		}
 	},
-	"equipo" : [
-		{
-			"name" : "Silvina Rafaela Wrubleski",
-			"spacialty": "Gerencia",
-			"mp" : "",
-			"pathImg": ""
-		},
-		{
-			"name" : "María Eugenia Listán y Amor",
-			"spacialty": "Gerencia",
-			"mp" : "",
-			"pathImg": ""
-		},
-		{
-			"name" : "Dr. Nestor Javier Bellusci",
-			"spacialty": "Dirección Médica",
-			"mp" : "",
-			"pathImg": ""
-		},
-		{
-			"name" : "Dr. Marcelo Ferreira",
-			"spacialty": "Neurocirujano",
-			"mp" : "MN 114.166",
-			"pathImg": ""
-		},
-		{
-			"name" : "Dr. Roberto Jorge Gisín",
-			"spacialty": "Médico Fisiatra",
-			"mp" : "MP 3975"
-		},
-		{
-			"name" : "Dra. Zaida Noemí Bedrán",
-			"spacialty": "Médica Reumatóloga",
-			"mp" : "MP 5016"
-		},
-		{
-			"name" : "Dr. Héctor Martín Fernández",
-			"spacialty": "Médico Neumonólogo",
-			"mp" : "MP 5311 - MN 149994"
-		},
-		{
-			"name" : "Dra. Liliana Esther Martínez",
-			"spacialty": "Médica Clínica",
-			"mp" : "MP 4907"
-		},
-		{
-			"name" : "Dr. Juan Pablo Romero",
-			"spacialty": "Médico Terapia Intensiva-Neurointensivista",
-			"mp" : "MP 5365 - MN 132178"
-		},
-		{
-			"name" : "Lic. Walker Emilio Sosa",
-			"spacialty": "Kinesiólogo",
-			"mp" : "MP 148"
-		},
-		{
-			"name" : "Lic. Juan José Gómez",
-			"spacialty": "Kinesiólogo",
-			"mp" : "MP 212"
-		},
-		{
-			"name" : "Lic. Marcela Paredes",
-			"spacialty": "Psicopedagoga",
-			"mp" : "MP 173"
-		},
-		{
-			"name" : "Lic. Cintia Tatiana Medica",
-			"spacialty": "Psicóloga",
-			"mp" : "MP 560"
-		}
-	]
+	"equipo": {
+		"admin": [
+			{
+				"name": "Silvina Rafaela Wrubleski",
+				"spacialty": "Gerencia",
+				"mp": "",
+				"pathImg": ""
+			},
+			{
+				"name": "María Eugenia Listán y Amor",
+				"spacialty": "Gerencia",
+				"mp": "",
+				"pathImg": ""
+			},
+			{
+				"name": "Dr. Nestor Javier Bellusci",
+				"spacialty": "Dirección Médica",
+				"mp": "",
+				"pathImg": ""
+			}
+		],
+
+		"staffMedico": [
+			{
+				"name": "Dr. Marcelo Ferreira",
+				"spacialty": "Neurocirujano",
+				"mp": "MN 114.166",
+				"pathImg": ""
+			},
+			{
+				"name": "Dr. Roberto Jorge Gisín",
+				"spacialty": "Médico Fisiatra",
+				"mp": "MP 3975"
+			},
+			{
+				"name": "Dra. Zaida Noemí Bedrán",
+				"spacialty": "Médica Reumatóloga",
+				"mp": "MP 5016"
+			},
+			{
+				"name": "Dr. Héctor Martín Fernández",
+				"spacialty": "Médico Neumonólogo",
+				"mp": "MP 5311 - MN 149994"
+			},
+			{
+				"name": "Dra. Liliana Esther Martínez",
+				"spacialty": "Médica Clínica",
+				"mp": "MP 4907"
+			},
+			{
+				"name": "Dr. Juan Pablo Romero",
+				"spacialty": "Médico Terapia Intensiva-Neurointensivista",
+				"mp": "MP 5365 - MN 132178"
+			},
+			{
+				"name": "Lic. Walker Emilio Sosa",
+				"spacialty": "Kinesiólogo",
+				"mp": "MP 148"
+			},
+			{
+				"name": "Lic. Juan José Gómez",
+				"spacialty": "Kinesiólogo",
+				"mp": "MP 212"
+			},
+			{
+				"name": "Lic. Marcela Paredes",
+				"spacialty": "Psicopedagoga",
+				"mp": "MP 173"
+			},
+			{
+				"name": "Lic. Cintia Tatiana Medica",
+				"spacialty": "Psicóloga",
+				"mp": "MP 560"
+			}
+		]
+	}
 }

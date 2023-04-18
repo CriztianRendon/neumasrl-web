@@ -20,14 +20,7 @@ const CardsEspecialidades = () => {
 								__html: t('home.especialidades.title'),
 							}}
 						/>
-						<p className='p-block--principal'>{t('home.especialidades.text')}</p>
-						<a
-							href='https://github.com/CriztianRendon'
-							target='_blank'
-							rel='noopener noreferrer'
-							className='btn btn--primary btn--md'>
-							{t('home.especialidades.button')}
-						</a>
+						<p className='p-block--secondary'>{t('home.especialidades.text')}</p>
 					</div>
 
 					<div className='wrapper wrapper__cards wrapper__cards--especialidad'>
@@ -44,11 +37,10 @@ const CardsEspecialidades = () => {
 								</div>
 								<div className='wrapper__bodyCard'>
 									<h3>{t(especialidad.title)}</h3>
-									<p>{t(especialidad.extract)}</p>
-									<div className='wrapper'></div>
+									<p className='p-block--secondary'>{t(especialidad.extract)}</p>
 									<Link
 										className='link-text link-text--card link-text--sm link-text--primary'
-										to='/nosotros'>
+										to='/especialidades'>
 										{t('navbar.turnos')}
 										<FontAwesomeIcon icon={faChevronRight} />
 									</Link>

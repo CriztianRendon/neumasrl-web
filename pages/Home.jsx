@@ -16,7 +16,6 @@ const Home = () => {
 			<Equipo />
 			<CardsEspecialidades />
 			{lang === 'es' ? <CardsCoberturas /> : ''}
-			<Noticias />
 			<ContactForm />
 		</>
 	);

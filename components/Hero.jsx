@@ -1,6 +1,13 @@
+import { Link } from 'react-router-dom';
+
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 
+//AWESOME ICONS
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight} from '@fortawesome/free-solid-svg-icons';
+
+//IMAGES
 import HeroImg from '/img/hero_home-960.png';
 
 const Hero = () => {
@@ -21,7 +28,7 @@ const Hero = () => {
 					</h1>
 					<p className='p-block--principal hero-text'>{t('home.hero.hero-text')}</p>
 					<a
-						href='https://github.com/CriztianRendon'
+						href='https://bit.ly/Clinica-Neuma'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='btn btn--primary btn--lg'>

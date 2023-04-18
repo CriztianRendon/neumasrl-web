@@ -1,5 +1,8 @@
-import { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
+import { scrollWidthOffset } from './scrollWidthOffset';
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 //AWESOME ICONS
@@ -53,39 +56,46 @@ function Navbar() {
 					</i>
 				</div>
 				<div className={`navbar__items ${isOpen ? 'navbar__items--open' : ''}`}>
+					<li className='item'>
+						<NavLink
+							to='/especialidades'
+							onClick={handleMenuClose}
+							className='navlink'>
+							{t('navbar.especialidades')}
+						</NavLink>
+					</li>
+					{i18n.language === 'es' && (
 						<li className='item'>
 							<NavLink
-								to='/especialidades'
+								to='/coberturas'
 								onClick={handleMenuClose}
 								className='navlink'>
-								{t('navbar.especialidades')}
+								coberturas
 							</NavLink>
 						</li>
-						{i18n.language === 'es' && (
-							<li className='item'>
-								<NavLink
-									to='/coberturas'
-									onClick={handleMenuClose}
-									className='navlink'>
-									coberturas
-								</NavLink>
-							</li>
-						)}
-						<li className='item'>
-							<NavLink
-								to='/nosotros'
-								onClick={handleMenuClose}
-								className='navlink'>
-								{t('navbar.nosotros')}
-							</NavLink>
-						</li>
+					)}
+					<li className='item'>
+						<NavLink
+							to='/nosotros'
+							onClick={handleMenuClose}
+							className='navlink'>
+							{t('navbar.nosotros')}
+						</NavLink>
+					</li>
 					<a
-						href='https://github.com/CriztianRendon'
+						href='https://bit.ly/Clinica-Neuma'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='btn btn--primary btn--lg'>
 						turnos
 					</a>
+					<HashLink smooth
+						to='/#contactForm'
+						scroll={scrollWidthOffset}
+						onClick={handleMenuClose}
+						className='btn btn--secondary btn--lg'>
+						{t('navbar.contacto')}
+					</HashLink>
 				</div>
 			</div>
 		</div>

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 const ContactForm = () => {
 	const { t } = useTranslation('global');
 	return (
-		<div className='section'>
+		<div id="contactForm" className='section'>
 			<div className='container'>
 				<div className='wrapper'>
 					<h2

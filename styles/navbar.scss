@@ -2,8 +2,6 @@
 
 .navbar {
   display: flex;
-  // position: fixed;
-  // top: 0;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +20,7 @@
     display: flex;
     width: 100%;
     flex-flow: column nowrap;
+    gap: 1.5rem;
     justify-content: center;
     align-items: start;
     background-color: $white;
@@ -35,13 +34,12 @@
 
 
     &--open {
-      height: 15rem;
+      height: 20rem;
       opacity: 1;
     }
 
 
     .item {
-      padding: 1rem 0;
       color: $black;
       font-size: $font-md;
       font-weight: $weight-ppal-regular;

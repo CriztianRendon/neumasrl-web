@@ -1,11 +1,13 @@
 import { useLocation } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 //AWESOME ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 //IMAGES
+
+import { scrollWidthOffset } from './scrollWidthOffset';
 
 //JSON
 import coberturas from '/src/coberturas.json';
@@ -24,15 +26,18 @@ const CardsCoberturas = () => {
 						dangerouslySetInnerHTML={{ __html: t('home.coberturas.title') }}
 					/>
 					<p className='p-block--principal'>{t('home.coberturas.text')}</p>
-					<div className='wrapper'>
+					<div
+						id='obrasSociales'
+						className='wrapper'>
 						{pageActual !== '/coberturas' && (
 							<div className='wrapper-link'>
-								<Link
-									to='/coberturas'
+								<HashLink smooth
+									to='/coberturas#obrasSociales'
+									scroll={scrollWidthOffset}
 									className='link-text link-text--md'>
 									Obras Sociales
 									<FontAwesomeIcon icon={faChevronRight} />
-								</Link>
+								</HashLink>
 							</div>
 						)}
 						{pageActual === '/coberturas' && (
@@ -72,15 +77,18 @@ const CardsCoberturas = () => {
 							))}
 						</div>
 					</div>
-					<div className='wrapper'>
+					<div
+						id='arts'
+						className='wrapper'>
 						{pageActual !== '/coberturas' && (
 							<div className='wrapper-link'>
-								<Link
-									to='/coberturas'
+								<HashLink smooth
+									to='/coberturas#arts'
+									scroll={scrollWidthOffset}
 									className='link-text link-text--md'>
 									ARTs
 									<FontAwesomeIcon icon={faChevronRight} />
-								</Link>
+								</HashLink>
 							</div>
 						)}
 						{pageActual === '/coberturas' && (

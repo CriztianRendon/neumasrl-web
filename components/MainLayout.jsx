@@ -8,10 +8,12 @@ const MainLayout = () => {
 	return (
 		<>
 			<Navbar />
-			<Outlet />
-			<Footer />
-			<SwicthLang />
-			<WhatsappContact />
+			<div className='main-container'>
+				<Outlet />
+				<Footer />
+				<SwicthLang />
+				<WhatsappContact />
+			</div>
 		</>
 	);
 };
