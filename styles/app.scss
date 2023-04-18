@@ -386,3 +386,18 @@ h3 {
   padding: 0.75rem 0.75rem;
   z-index: 99;
 }
+
+.alert {
+  color: $white;
+  font-weight: $weight-gral-bold;
+  padding: 0.75rem;
+  border-radius: 12px;
+
+  &--sucess {
+    background-color: $success-color;
+  }
+
+  &--error {
+    background-color: $error-color;
+  }
+}
