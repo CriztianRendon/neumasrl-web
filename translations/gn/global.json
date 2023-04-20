@@ -106,19 +106,22 @@
 		"admin": [
 			{
 				"name": "Silvina Rafaela Wrubleski",
-				"spacialty": "Gerencia",
+				"profPosition": "Gerencia",
+				"spacialtyId": "",
 				"mp": "",
 				"pathImg": ""
 			},
 			{
 				"name": "María Eugenia Listán y Amor",
-				"spacialty": "Gerencia",
+				"profPosition": "Gerencia",
+				"spacialtyId": "",
 				"mp": "",
 				"pathImg": ""
 			},
 			{
 				"name": "Dr. Nestor Javier Bellusci",
-				"spacialty": "Dirección Médica",
+				"profPosition": "Dirección Médica",
+				"spacialtyId": "",
 				"mp": "",
 				"pathImg": ""
 			}
@@ -127,54 +130,74 @@
 		"staffMedico": [
 			{
 				"name": "Dr. Marcelo Ferreira",
-				"spacialty": "Neurocirujano",
+				"profPosition": "Neurocirujano",
+				"spacialtyId": 2,
 				"mp": "MN 114.166",
-				"pathImg": ""
+				"pathImg": "",
+				"turnero" : "https://bit.ly/Dr-Ferreira-Marcelo"
 			},
 			{
 				"name": "Dr. Roberto Jorge Gisín",
-				"spacialty": "Médico Fisiatra",
-				"mp": "MP 3975"
+				"profPosition": "Médico Fisiatra",
+				"spacialtyId": 3,
+				"mp": "MP 3975",
+				"turnero" : "https://bit.ly/Dr-Gisin-Roberto"
 			},
 			{
 				"name": "Dra. Zaida Noemí Bedrán",
-				"spacialty": "Médica Reumatóloga",
-				"mp": "MP 5016"
+				"profPosition": "Médica Reumatóloga",
+				"spacialtyId": 6,
+				"mp": "MP 5016",
+				"turnero" : "https://bit.ly/Dra-Zaida-Bedran"
 			},
 			{
 				"name": "Dr. Héctor Martín Fernández",
-				"spacialty": "Médico Neumonólogo",
-				"mp": "MP 5311 - MN 149994"
+				"profPosition": "Médico Neumonólogo",
+				"spacialtyId": 1,
+				"mp": "MP 5311 - MN 149994",
+				"turnero" : ""
 			},
 			{
 				"name": "Dra. Liliana Esther Martínez",
-				"spacialty": "Médica Clínica",
-				"mp": "MP 4907"
+				"profPosition": "Médica Clínica",
+				"spacialtyId": 4,
+				"mp": "MP 4907",
+				"turnero" : "https://bit.ly/Dra-Martinez-Liliana"
 			},
 			{
 				"name": "Dr. Juan Pablo Romero",
-				"spacialty": "Médico Terapia Intensiva-Neurointensivista",
-				"mp": "MP 5365 - MN 132178"
+				"profPosition": "Médico Terapia Intensiva-Neurointensivista",
+				"spacialtyId": 2,
+				"mp": "MP 5365 - MN 132178",
+				"turnero" : ""
 			},
 			{
 				"name": "Lic. Walker Emilio Sosa",
-				"spacialty": "Kinesiólogo",
-				"mp": "MP 148"
+				"profPosition": "Kinesiólogo",
+				"spacialtyId": 5,
+				"mp": "MP 148",
+				"turnero" : ""
 			},
 			{
 				"name": "Lic. Juan José Gómez",
-				"spacialty": "Kinesiólogo",
-				"mp": "MP 212"
+				"profPosition": "Kinesiólogo",
+				"spacialtyId": 5,
+				"mp": "MP 212",
+				"turnero" : ""
 			},
 			{
 				"name": "Lic. Marcela Paredes",
-				"spacialty": "Psicopedagoga",
-				"mp": "MP 173"
+				"profPosition": "Psicopedagoga",
+				"spacialtyId": 7,
+				"mp": "MP 173",
+				"turnero" : "https://bit.ly/Lic-Paredes-Carmen"
 			},
 			{
 				"name": "Lic. Cintia Tatiana Medica",
-				"spacialty": "Psicóloga",
-				"mp": "MP 560"
+				"profPosition": "Psicóloga",
+				"spacialtyId": 7,
+				"mp": "MP 560",
+				"turnero" : ""
 			}
 		]
 	}

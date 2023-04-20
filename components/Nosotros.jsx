@@ -38,6 +38,7 @@ const Nosotros = () => {
 						className='p-block--secondary'
 						dangerouslySetInnerHTML={{
 							__html: t('nosotros.text.parrafo4') }}></p>
+					<p className='p-block--secondary'>{t('nosotros.text.parrafo5')}</p>
 				</div>
 				<div className='wrapper wrapper__img wrapper__img--full'>
 					<img

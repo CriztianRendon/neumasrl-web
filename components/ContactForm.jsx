@@ -25,6 +25,9 @@ const ContactForm = () => {
 				(result) => {
 					console.log(result.text);
 					setSubmitAlert('sucess');
+					setTimeout(()=>{
+						setSubmitAlert('');
+					}, 3000)
 					form.current.reset();
 				},
 				(error) => {

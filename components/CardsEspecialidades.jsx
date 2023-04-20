@@ -30,7 +30,7 @@ const CardsEspecialidades = () => {
 								key={index}>
 								<div className='wrapper wrapper__img'>
 									<img
-										className='img img--card-especialidad '
+										className='img img--card-especialidad'
 										src={`/img${t(especialidad.pathImg)}.jpg`}
 										alt='card-especialidad'
 									/>
@@ -38,10 +38,11 @@ const CardsEspecialidades = () => {
 								<div className='wrapper__bodyCard'>
 									<h3>{t(especialidad.title)}</h3>
 									<p className='p-block--secondary'>{t(especialidad.extract)}</p>
+									<hr />
 									<Link
 										className='link-text link-text--card link-text--sm link-text--primary'
-										to='/especialidades'>
-										{t('navbar.turnos')}
+										to={`/especialidades/${especialidad.id}`}>
+										{t('home.especialidades.button')}
 										<FontAwesomeIcon icon={faChevronRight} />
 									</Link>
 								</div>

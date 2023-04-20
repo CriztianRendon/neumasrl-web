@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 // PAGES
 import Home from '../pages/Home';
 import Especialidades from '../pages/Especialidades';
+import DetalleEspecialidad from '../components/DetalleEspecialidad';
 import AboutUs from '../pages/AboutUs';
 import Coberturas from '../pages/Coberturas';
 
@@ -18,7 +19,7 @@ import ScrollToTop from '../components/ScrollToTop';
 import '../styles/app.scss';
 
 function App() {
-	const {t} = useTranslation('global');
+	const { t } = useTranslation('global');
 
 	return (
 		<>
@@ -39,6 +40,10 @@ function App() {
 					<Route
 						path={`/especialidades`}
 						element={<Especialidades />}
+					/>
+					<Route
+						path={`/especialidades/:id`}
+						element={<DetalleEspecialidad />}
 					/>
 					<Route
 						path={`/coberturas`}
