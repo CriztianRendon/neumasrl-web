@@ -46,7 +46,6 @@ const CardsEspecialidades = () => {
 										<FontAwesomeIcon icon={faChevronRight} />
 									</Link>
 								</div>
-								{/* <div dangerouslySetInnerHTML={{ __html: t(especialidad.text) }}/> */}
 							</div>
 						))}
 					</div>

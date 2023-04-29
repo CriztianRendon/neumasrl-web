@@ -152,7 +152,6 @@ h3 {
 
     &--especialidad {
       flex-flow: column wrap;
-
     }
 
     &--coberturas-horizontal {
@@ -178,9 +177,18 @@ h3 {
   }
 
   &__bodyCard {
+
+    &--full {
+      text-align: center;
+
+    }
+
+    &--md {
+      text-align: start;
+    }
+
     display: flex;
     flex-direction: column;
-    text-align: center;
     padding: 1rem;
   }
 
@@ -195,7 +203,7 @@ h3 {
       margin-bottom: 3rem;
     }
 
-    &--card-equipo {
+    &--cardEquipo {
       border-top-right-radius: 12px;
       border-top-left-radius: 12px;
       padding: 2rem;
@@ -255,7 +263,7 @@ h3 {
   background-color: $white;
   box-shadow: 5px 5px 10px $gray;
 
-  &--especialidad {
+  &--especialidad{
     width: 100%;
   }
 

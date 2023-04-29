@@ -45,7 +45,7 @@ const CardsEquipo = () => {
 						<div
 							className='card card--especialidad'
 							key={index}>
-							<div className='wrapper__img wrapper__img--card-equipo'>
+							<div className='wrapper__img wrapper__img--cardEquipo'>
 								<FontAwesomeIcon
 									className='img img--card-equipo'
 									icon={faUserNurse}
@@ -56,12 +56,13 @@ const CardsEquipo = () => {
 									alt='card-especialidad'
 								/> */}
 							</div>
-							<div className='wrapper__bodyCard'>
+							<div className='wrapper__bodyCard wrapper__bodyCard--full'>
 								<h3>{t(medico.name)}</h3>
 								<hr />
-								<p className='text--primary'>{t(medico.profPosition)}</p>
-								<div className='wrapper'></div>
-								<p>{t(medico.mp)}</p>
+								<div className='wrapper'>
+									<p className='text--primary'>{t(medico.profPosition)}</p>
+									<p>{t(medico.mp)}</p>
+								</div>
 								<a
 									className='link-text link-text--card link-text--sm link-text--primary'
 									href={`${t(medico.turnero)}`}

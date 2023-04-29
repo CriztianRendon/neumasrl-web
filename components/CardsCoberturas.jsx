@@ -110,7 +110,7 @@ const CardsCoberturas = () => {
 											: 'card--cobertura-horizontal'
 									}`}
 									key={index}>
-									<div className='card wrapper wrapper__img'>
+									<div className='card wrapper__img'>
 										<img
 											className='img--cobertura'
 											src={`/img/coberturas${entidad.pathImg}.jpg`}

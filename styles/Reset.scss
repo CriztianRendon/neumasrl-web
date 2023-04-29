@@ -50,7 +50,7 @@ p a {
 
 /* Quitamos los puntos de los <li> */
 li {
-  list-style-type: none;
+  // list-style-type: none;
 }
 
 /* (Opcional) Configuramos anclas suaves */
@@ -79,6 +79,10 @@ em {
   font-style: inherit;
   text-decoration: none;
   color: inherit;
+}
+
+b {
+  font-weight: $weight-gral-bold;
 }
 
 h1,
