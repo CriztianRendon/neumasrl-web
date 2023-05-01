@@ -19,27 +19,31 @@ const Nosotros = () => {
 						{t('nosotros.text.parrafo1')}
 					</p>
 				</div>
-				<div className='wrapper wrapper__img wrapper__img--section'>
-					<img
-						className='img--section'
-						src={EquipoImg}
-						alt='Hero imagen'
-					/>
-					<img
-						className='img--decoration1'
-						src={DecorImg}
-						alt='Hero imagen'
-					/>
-				</div>
-				<div>
-					<p className='p-block--secondary'>{t('nosotros.text.parrafo2')}</p>
-					<p className='p-block--secondary'>{t('nosotros.text.parrafo3')}</p>
-					<p
-						className='p-block--secondary'
-						dangerouslySetInnerHTML={{
-							__html: t('nosotros.text.parrafo4') }}></p>
-					<p className='p-block--secondary'>{t('nosotros.text.parrafo5')}</p>
-				</div>
+				<div className='wrapper wrapper__nosotros'>
+					<div className='wrapper wrapper__img wrapper__img--section'>
+						<img
+							className='img--section'
+							src={EquipoImg}
+							alt='Hero imagen'
+						/>
+						<img
+							className='img--decoration1'
+							src={DecorImg}
+							alt='Hero imagen'
+						/>
+					</div>
+					<div className='wrapper nosotros__text'>
+						<p className='p-block--secondary'>{t('nosotros.text.parrafo2')}</p>
+						<p className='p-block--secondary'>{t('nosotros.text.parrafo3')}</p>
+					</div>
+					<div className='wrapper nosotros__text'>
+						<p
+							className='p-block--secondary'
+							dangerouslySetInnerHTML={{
+								__html: t('nosotros.text.parrafo4'),
+							}}></p>
+						<p className='p-block--secondary'>{t('nosotros.text.parrafo5')}</p>
+					</div>
 				<div className='wrapper wrapper__img wrapper__img--full'>
 					<img
 						className='img--section'
@@ -51,6 +55,7 @@ const Nosotros = () => {
 						src={DecorImg}
 						alt='Hero imagen'
 					/>
+				</div>
 				</div>
 			</div>
 		</div>

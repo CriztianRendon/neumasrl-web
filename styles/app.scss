@@ -52,6 +52,12 @@ h3 {
   &--secondary {
     margin-bottom: 1rem;
   }
+
+  &--copywrite {
+    font-family: $font-ppal;
+    font-weight: $weight-ppal-bold;
+
+  }
 }
 
 .img {
@@ -62,7 +68,7 @@ h3 {
 
   &--decoration1 {
     bottom: -2.5rem;
-    right: -0.5rem;
+    right: 1rem;
     position: absolute;
     width: 8rem;
     z-index: -1;
@@ -90,8 +96,14 @@ h3 {
     filter: opacity(80%);
   }
 }
+
 .main-container {
   margin-top: 5rem;
+
+  @media (min-width:768px) {
+    margin-top: 8rem;
+
+  }
 }
 
 .section {
@@ -106,6 +118,8 @@ h3 {
   &__nav {
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 99;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -131,13 +145,56 @@ h3 {
 .wrapper {
   margin-bottom: 1rem;
 
+  &__nosotros {
+    @media (min-width:768px) {
+      display: grid;
+      gap: 1rem;
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__equipo {
+
+    @media (min-width:768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      align-items: end;
+
+      .equipo__text {
+        grid-column: 2;
+      }
+
+      .wrapper__img {
+        grid-row: 1;
+        grid-column: 1;
+      }
+
+      .wrapper__link {
+        grid-column: 2;
+      }
+
+    }
+  }
+
+  &__hero {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    @media(min-width:768px) {
+      flex-flow: row-reverse;
+    }
+  }
+
   &__rssapp-carousel {
 
     background-color: #25D366;
     width: 100% !important;
     overflow: hidden;
 
-    .rssapp-title-header{
+    .rssapp-title-header {
       font-size: $font-xs;
       display: none !important;
     }
@@ -148,16 +205,21 @@ h3 {
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    gap: 16px;
+    gap: 1rem;
 
-    &--especialidad {
+    &--especialidades {
       flex-flow: column wrap;
+      justify-content: center;
+
+      @media (min-width:768px) {
+        flex-flow: row wrap;
+      }
     }
 
     &--coberturas-horizontal {
       padding-top: 1rem;
       flex-flow: row nowrap;
-      overflow-x: scroll;
+      overflow-x: auto;
       scrollbar-width: thin;
       /* ancho de la barra de desplazamiento */
       scrollbar-color: $primary-color $secondary-color;
@@ -167,13 +229,9 @@ h3 {
     &--coberturas-list {
       padding-top: 1rem;
       flex-flow: row wrap;
-      overflow-x: scroll;
-      scrollbar-width: thin;
-      /* ancho de la barra de desplazamiento */
-      scrollbar-color: $primary-color $secondary-color;
-      /* color del "pulgar" y del fondo */
+      justify-content: center;
     }
-    
+
   }
 
   &__bodyCard {
@@ -224,22 +282,12 @@ h3 {
     }
 
   }
-  &--copywrite {
-    font-size: $font-xs;
-    font-family: $font-ppal;
-    font-weight: $weight-ppal-bold;
-    color: $gray;
-    padding-top: 0.5rem;
-    padding-bottom: 4.5rem;
-    background-color: $black;
-
-  }
 
   &__swicth-lang {
     display: flex;
     gap: 1rem;
     position: fixed;
-    bottom: 0.75rem;
+    bottom: 0.5rem;
     left: 1rem;
     background-color: $white;
     padding: 0.25rem;
@@ -257,22 +305,57 @@ h3 {
 }
 
 .card {
-  // padding: 1rem;
   border: 1px solid $gray;
   border-radius: 12px;
   background-color: $white;
   box-shadow: 5px 5px 10px $gray;
 
-  &--especialidad{
+  &__body {
+    padding: 1rem;
+
+    &--center {
+      text-align: center;
+    }
+  }
+
+  &__link {
+    margin-top: auto;
+    margin-bottom: 1rem;
+
+    &--end {
+      text-align: end;
+    }
+  }
+
+
+  &--especialidad {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+
+    @media(min-width: 768px) {
+      flex-basis: calc(33% - 0.5rem);
+
+    }
   }
 
   &--cobertura-horizontal {
-    min-width: 50%;
+    flex-basis: calc(50% - 0.5rem);
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    @media (min-width: 768px) {
+      flex-basis: calc(25% - 0.5rem);
+    }
   }
 
   &--cobertura-list {
-    flex-basis: calc(50% - 8px);
+    flex-basis: calc(50% - 0.5rem);
+
+    @media (min-width: 768px) {
+      flex-basis: calc(33% - 0.5rem);
+
+    }
   }
 
 }
@@ -291,11 +374,6 @@ h3 {
   padding-right: 1rem;
   font-family: $font-ppal;
   font-weight: $weight-ppal-bold;
-
-  &--card {
-
-    align-self: flex-end;
-  }
 
   &--md {
 
@@ -381,7 +459,7 @@ h3 {
   text-align: center;
   background-color: $primary-color;
   color: $white;
-  
+
 }
 
 .icon-wp {

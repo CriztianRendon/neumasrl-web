@@ -21,7 +21,7 @@ const DetalleEspecialidad = () => {
 	return (
 		<div className='container'>
 			<h2 dangerouslySetInnerHTML={{ __html: t(especialidad.title) }}/>
-			<div className='wrapper wrapper__cards wrapper__cards--especialidad'>
+			<div className='wrapper wrapper__cards wrapper__cards--especialidades'>
 				{medicosEspecialistas.map((medico, index) => {
 					return (
 						<div
@@ -38,7 +38,7 @@ const DetalleEspecialidad = () => {
 									alt='card-especialidad'
 								/> */}
 							</div>
-							<div className='wrapper__bodyCard wrapper__bodyCard--md'>
+							<div className='card__body card__body--center'>
 								<h4>{t(medico.name)}</h4>
 								
 								<hr />

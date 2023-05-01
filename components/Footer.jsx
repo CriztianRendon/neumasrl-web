@@ -13,6 +13,9 @@ const Footer = () => {
 						/>
 					</div>
 					<h3>Neuma Respiratoria SRL</h3>
+					<p className='p-block--copywrite '>
+					©{new Date().getFullYear()}
+				</p>
 				</div>
 				<p className='p-block--secondary '>
 					{'+54 (0376) '}
@@ -39,11 +42,6 @@ const Footer = () => {
 						ARGENTINA
 					</p>
 				</a>
-			</div>
-			<div className='wrapper--copywrite'>
-				<p className='p--copywrite '>
-					{new Date().getFullYear()} © Neuma Respiratoria SRL
-				</p>
 			</div>
 		</div>
 	);

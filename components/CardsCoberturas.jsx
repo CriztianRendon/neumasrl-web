@@ -25,7 +25,7 @@ const CardsCoberturas = () => {
 					<h2
 						dangerouslySetInnerHTML={{ __html: t('home.coberturas.title') }}
 					/>
-					<p className='p-block--principal'>{t('home.coberturas.text')}</p>
+					<p className='p-block--principal text--primary'>{t('home.coberturas.text')}</p>
 					<div
 						id='obrasSociales'
 						className='wrapper'>

@@ -20,10 +20,12 @@ const CardsEspecialidades = () => {
 								__html: t('home.especialidades.title'),
 							}}
 						/>
-						<p className='p-block--secondary'>{t('home.especialidades.text')}</p>
+						<p className='p-block--secondary text--primary'>
+							{t('home.especialidades.text')}
+						</p>
 					</div>
 
-					<div className='wrapper wrapper__cards wrapper__cards--especialidad'>
+					<div className='wrapper wrapper__cards wrapper__cards--especialidades'>
 						{especialidades.map((especialidad, index) => (
 							<div
 								className='card card--especialidad'
@@ -35,12 +37,15 @@ const CardsEspecialidades = () => {
 										alt='card-especialidad'
 									/>
 								</div>
-								<div className='wrapper__bodyCard'>
+								<div className='card__body card__body--center'>
 									<h3>{t(especialidad.title)}</h3>
-									<p className='p-block--secondary'>{t(especialidad.extract)}</p>
-									<hr />
+									<p className='p-block--secondary'>
+										{t(especialidad.extract)}
+									</p>
+								</div>
+								<div className='card__link card__link--end'>
 									<Link
-										className='link-text link-text--card link-text--sm link-text--primary'
+										className='link-text link-text--sm link-text--primary'
 										to={`/especialidades/${especialidad.id}`}>
 										{t('home.especialidades.button')}
 										<FontAwesomeIcon icon={faChevronRight} />

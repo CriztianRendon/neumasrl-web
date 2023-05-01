@@ -12,6 +12,7 @@ i18n
 .init({
 	interpolation: { escapeValue: false },
 	fallbacklng: 'es',
+	debug: false,
 	resources: {
 		es: {
 			global: global_es,
