@@ -139,6 +139,14 @@
 
 		"staffMedico": [
 			{
+				"name": "Dr. Jesica Natacha Cruz",
+				"profPosition": "Médica Neumonóloga",
+				"spacialtyId": 1,
+				"mp": "MP 5450",
+				"pathImg": "",
+				"turnero" : "https://bit.ly/Dra-Cruz-Jesica"
+			},
+			{
 				"name": "Dr. Marcelo Ferreira",
 				"profPosition": "Neurocirujano",
 				"spacialtyId": 2,
@@ -161,13 +169,6 @@
 				"turnero": "https://bit.ly/Dra-Zaida-Bedran"
 			},
 			{
-				"name": "Dr. Héctor Martín Fernández",
-				"profPosition": "Médico Neumonólogo",
-				"spacialtyId": 1,
-				"mp": "MP 5311 - MN 149994",
-				"turnero": ""
-			},
-			{
 				"name": "Dra. Liliana Esther Martínez",
 				"profPosition": "Médica Clínica",
 				"spacialtyId": 4,
@@ -175,25 +176,18 @@
 				"turnero": "https://bit.ly/Dra-Martinez-Liliana"
 			},
 			{
-				"name": "Dr. Juan Pablo Romero",
-				"profPosition": "Médico Terapia Intensiva-Neurointensivista",
-				"spacialtyId": 2,
-				"mp": "MP 5365 - MN 132178",
-				"turnero": ""
-			},
-			{
 				"name": "Lic. Walker Emilio Sosa",
 				"profPosition": "Kinesiólogo",
 				"spacialtyId": 5,
 				"mp": "MP 148",
-				"turnero": ""
+				"turnero": "https://wa.link/f3iew4"
 			},
 			{
 				"name": "Lic. Juan José Gómez",
 				"profPosition": "Kinesiólogo",
 				"spacialtyId": 5,
 				"mp": "MP 212",
-				"turnero": ""
+				"turnero": "https://wa.link/5rw9od"
 			},
 			{
 				"name": "Lic. Marcela Paredes",
@@ -201,13 +195,6 @@
 				"spacialtyId": 7,
 				"mp": "MP 173",
 				"turnero": "https://bit.ly/Lic-Paredes-Carmen"
-			},
-			{
-				"name": "Lic. Cintia Tatiana Medica",
-				"profPosition": "Psicóloga",
-				"spacialtyId": 7,
-				"mp": "MP 560",
-				"turnero": ""
 			}
 		]
 	}
