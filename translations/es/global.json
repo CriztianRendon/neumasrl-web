@@ -19,19 +19,19 @@
 
 		"especialidades": {
 			"title": "<span>Especialidades</span>",
-			"text": "Nuestros especialistas trabajan juntos y enfocados en brindar una atención integral a nuestros pacientes, desde el diagnóstico hasta el tratamiento y su recuperación",
+			"text": "Nuestros especialistas trabajan juntos y enfocados en brindar una atención integral a nuestros pacientes, desde el diagnóstico hasta el tratamiento y su recuperación.",
 			"button": "Consultar agendas"
 		},
 
 		"equipo": {
 			"title": "Nuestro <span>equipo</span>",
-			"text": "Nos enorgullece ofrecer una atención médica de alta calidad y personalizada para satisfacer las necesidades individuales de cada paciente, trabajamos de manera coordinada y colaborativa para garantizar la mejor atención médica especializada en enfermedades respiratorias",
+			"text": "Nos enorgullece ofrecer una atención médica de alta calidad y personalizada para satisfacer las necesidades individuales de cada paciente, trabajamos de manera coordinada y colaborativa para garantizar la mejor atención médica especializada en enfermedades respiratorias.",
 			"button": "Conoce más"
 		},
 
 		"coberturas": {
 			"title": "<span>Coberturas</span>",
-			"text": "Una amplia gama de prestadoras de salud avalan y confían en la calidad de nuestra institución"
+			"text": "Una amplia gama de prestadoras de salud avalan y confían en la calidad de nuestra institución."
 		},
 
 		"noticias": {
