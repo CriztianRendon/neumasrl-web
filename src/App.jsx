@@ -9,6 +9,7 @@ import Especialidades from '../pages/Especialidades';
 import DetalleEspecialidad from '../components/DetalleEspecialidad';
 import AboutUs from '../pages/AboutUs';
 import Coberturas from '../pages/Coberturas';
+// import Sitemap from '../components/Sitemap';
 
 // COMPONENTS
 import MainLayout from '../components/MainLayout';
