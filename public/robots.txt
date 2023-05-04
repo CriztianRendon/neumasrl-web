@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+Sitemap: https://www.clinicaneuma.com/sitemap.xml
