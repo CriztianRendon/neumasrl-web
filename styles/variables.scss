@@ -43,10 +43,10 @@ $font-xs: 14px;
   }
 }
 
-@mixin buttonSize($width, $paddin-x , $paddin-y,  $border-radius, $font-size, $font-weigth) {
+@mixin buttonSize($width, $paddin-y , $paddin-x,  $border-radius, $font-size, $font-weigth) {
   font-size: $font-size;
   font-weight: $font-weigth;
   width: $width;
-  padding: $paddin-x $paddin-y;
+  padding: $paddin-y $paddin-x;
   border-radius: $border-radius;
 }

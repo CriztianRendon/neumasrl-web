@@ -64,7 +64,7 @@ function Navbar() {
 							{t('navbar.especialidades')}
 						</NavLink>
 					</li>
-					{i18n.language === 'es' && (
+					{i18n.language === 'es-ES' && (
 						<li className='item'>
 							<NavLink
 								to='/coberturas'

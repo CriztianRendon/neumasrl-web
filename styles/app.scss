@@ -419,6 +419,15 @@ h3 {
     @include buttonColor($white, $primary-color, $primary-color, $secondary-color, $white)
   }
 
+  &--language {   
+    background-color: transparent;
+    color: transparent; 
+
+    &-active{
+      border: 2px solid $primary-color;
+    }
+  }
+
   &--lg {
     @include buttonSize(100%, 0.75rem, 1rem, 12px, $font-xs, $weight-ppal-bold)
   }
@@ -432,7 +441,7 @@ h3 {
   }
 
   &--xs {
-    @include buttonSize(auto, 0.25rem, 0.5rem, 10px, $font-xs, $weight-ppal-bold)
+    @include buttonSize(auto, 0.5rem, 0.5rem, 10px, $font-xs, $weight-ppal-bold)
   }
 }
 

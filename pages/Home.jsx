@@ -1,7 +1,9 @@
+//LIBRARIES
 import { useTranslation } from 'react-i18next';
-import CardsEspecialidades from '../components/CardsEspecialidades';
-import Equipo from '../components/Equipo';
+//COMPONENTS
 import Hero from '../components/Hero';
+import Equipo from '../components/Equipo';
+import CardsEspecialidades from '../components/CardsEspecialidades';
 import CardsCoberturas from '../components/CardsCoberturas';
 
 const Home = () => {
@@ -13,7 +15,7 @@ const Home = () => {
 			<Hero />
 			<Equipo />
 			<CardsEspecialidades />
-			{lang === 'es' && <CardsCoberturas />}
+			{lang === 'es-ES' && <CardsCoberturas />}
 		</>
 	);
 };
