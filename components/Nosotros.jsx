@@ -1,8 +1,8 @@
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 //IMAGES
-import EquipoImg from '/img/equipo_1_960.png';
-import EquipoImg2 from '/img/equipo_2_960.png';
+import EquipoImg from '/img/equipo_1_480.jpg';
+import EquipoImg2 from '/img/equipo_2_520.jpg';
 import DecorImg from '/img/decor_img.svg';
 
 const Nosotros = () => {

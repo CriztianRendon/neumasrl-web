@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 //IMAGES
-import EquipoImg from '/img/equipo_1_960.png';
+import EquipoImg from '/img/equipo_1_480.jpg';
 import DecorImg from '/img/decor_img.svg';
 
 const Equipo = () => {

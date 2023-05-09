@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 //IMAGES
-import HeroImg from '/img/hero_home-960.png';
+import HeroImg from '/img/hero_home-720.jpg';
 
 const Hero = () => {
 	const { t } = useTranslation('global');
