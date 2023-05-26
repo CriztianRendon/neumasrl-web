@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 //LIBRARIES
 import { useTranslation } from 'react-i18next';
 //IMAGES
@@ -7,29 +7,66 @@ import braFlag from '../public/img/brazil_flag.svg';
 import parFlag from '../public/img/paraguay_flag.svg';
 
 const SwicthLang = () => {
-  const { i18n } = useTranslation('global');
-  const lang = i18n.language;
+	const { i18n } = useTranslation('global');
+	const lang = i18n.language;
 
-  const [activeLang, setActiveLang] = useState(lang);
+	const [activeLang, setActiveLang] = useState(lang);
 
-  const handleLangChange = (newLang) => {
-    i18n.changeLanguage(newLang);
-    setActiveLang(newLang);
-  };
+	const handleLangChange = (newLang) => {
+		i18n.changeLanguage(newLang);
+		setActiveLang(newLang);
+	};
 
-  return (
-    <div className='wrapper__swicth-lang'>
-      <a className={`btn btn--xs ${activeLang === 'es-ES' ? 'btn--language-active' : 'btn--languaje'}`} onClick={() => handleLangChange('es-ES')}>
-      <img src={argFlag} alt="Argentina flag language" width={'auto'} height={'18px'}/>
-      </a>
-      <button className={`btn btn--xs ${activeLang === 'pt-BR' ? 'btn--language-active' : 'btn--languaje'}`} onClick={() => handleLangChange('pt-BR')}>
-      <img src={braFlag} alt="Argentina flag language" width={'auto'} height={'18px'}/>
-      </button>
-      <button className={`btn btn--xs ${activeLang === 'gn-PY' ? 'btn--language-active' : 'btn--languaje'}`} onClick={() => handleLangChange('gn-PY')}>
-      <img src={parFlag} alt="Argentina flag language" width={'auto'} height={'18px'}/>
-      </button>
-    </div>
-  );
+	useEffect(() => {
+		if (lang === 'es-ES' || 'es') {
+			handleLangChange('es');
+		} else if (lang === 'pt-BR' || 'pt') {
+			handleLangChange('pt');
+		} else if (lang === 'gn-PY' || 'gn') {
+			handleLangChange('gn');
+		}
+	}, []);
+
+	return (
+		<div className='wrapper__swicth-lang'>
+			<a
+				className={`btn btn--xs ${
+					activeLang === 'es' ? 'btn--language-active' : 'btn--languaje'
+				}`}
+				onClick={() => handleLangChange('es')}>
+				<img
+					src={argFlag}
+					alt='Argentina flag language'
+					width={'auto'}
+					height={'18px'}
+				/>
+			</a>
+			<button
+				className={`btn btn--xs ${
+					activeLang === 'pt' ? 'btn--language-active' : 'btn--languaje'
+				}`}
+				onClick={() => handleLangChange('pt')}>
+				<img
+					src={braFlag}
+					alt='Argentina flag language'
+					width={'auto'}
+					height={'18px'}
+				/>
+			</button>
+			<button
+				className={`btn btn--xs ${
+					activeLang === 'gn' ? 'btn--language-active' : 'btn--languaje'
+				}`}
+				onClick={() => handleLangChange('gn')}>
+				<img
+					src={parFlag}
+					alt='Argentina flag language'
+					width={'auto'}
+					height={'18px'}
+				/>
+			</button>
+		</div>
+	);
 };
 
 export default SwicthLang;

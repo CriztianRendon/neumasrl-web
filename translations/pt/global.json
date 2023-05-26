@@ -3,7 +3,7 @@
 		"especialidades": "especializações",
 		"coberturas": "",
 		"nosotros": "nós",
-		"turnos": "turnos",
+		"turnos": "Turnos",
 		"contacto": "Contato"
 	},
 
@@ -105,7 +105,7 @@
   "nosotros" : {
 		"title": "Nós",
 		"text": {
-			"parrafo1": "A Pneuma Respiratoria é o único centro especializado em reabilitação pulmonar do interior do país que oferece serviços de saúde de excelência",
+			"parrafo1": "A Neuma Respiratoria é o único centro especializado em reabilitação pulmonar e neurológica do interior do país que presta serviços de saúde de excelência",
 			"parrafo2": "A nossa equipa de profissionais tem uma ideia clara para atingir o nosso objetivo: Abordar o paciente numa conceção holística, promovendo a harmonia e a responsabilidade na pessoa na gestão da sua própria vida, dos seus próprios recursos, com os seus limites e disfunções, em cada um .das dimensões de sua pessoa: física, emocional, intelectual e espiritual.",
 			"parrafo3": "A nossa concepção compreende o doente como um ser integrado em si e numa família, pelo que o tratamento supõe a incorporação e abordagem do ambiente familiar, acrescentando-o ao processo terapêutico.",
 			"parrafo4": "<h3><span>En Neuma</span></h3>Geramos nosso próprio padrão de comunicação com o paciente; a equipe profissional se envolve com ele e seu tratamento, promovendo uma atitude saudável em relação ao seu estado de saúde, gerando uma predisposição positiva, essencial para sua recuperação",

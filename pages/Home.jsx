@@ -9,13 +9,14 @@ import CardsCoberturas from '../components/CardsCoberturas';
 const Home = () => {
 	const [t, i18n] = useTranslation('global');
 	const lang = i18n.language;
+	// console.log(lang);
 
 	return (
 		<>
 			<Hero />
 			<Equipo />
 			<CardsEspecialidades />
-			{lang === 'es-ES' && <CardsCoberturas />}
+			{lang === 'es' && <CardsCoberturas />}
 		</>
 	);
 };
