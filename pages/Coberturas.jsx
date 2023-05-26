@@ -7,7 +7,7 @@ const Coberturas = () => {
 	const [t, i18n] = useTranslation('global');
 	const lang = i18n.language;
 
-	return <>{lang === 'es-ES' ? <CardsCoberturas /> : <Navigate to='/' />}</>;
+	return <>{lang === 'es' ? <CardsCoberturas /> : <Navigate to='/' />}</>;
 };
 
 export default Coberturas;
